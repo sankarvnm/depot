@@ -9,7 +9,7 @@
 	<li>
 	<div class="menu_item">
 		<h3><%= product.title %></h3>	
-	
+		<%= image_tag product.image.url(:large) %>
 		<%= sanitize(product.description)%>
 		<div class="price_line">
 			<span class="price"><%= product.price %></span>

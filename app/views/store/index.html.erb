@@ -1,0 +1,23 @@
+<div>
+<% if notice %>
+	<p id="notice"><%= notice %></p>
+<%end%>
+
+
+<ul class="menu_list">
+<% @products.each do |product| %>
+	<li>
+	<div class="menu_item">
+		<h3><%= product.title %></h3>	
+	
+		<%= sanitize(product.description)%>
+		<div class="price_line">
+			<span class="price"><%= product.price %></span>
+		</div>
+		<a href="#" id="add_to_order">Add to order</a>
+	</div>
+	</li>
+
+<%end%>
+</ul>
+</div>

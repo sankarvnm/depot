@@ -3,11 +3,9 @@
 menu_item:
   title: pizza
   description: this is a description of a pizza
-  image_url: picture_of_pizza.png
   price: 9.99
 
 another_menu_item:
   title: burger
   description: This is a description of a burnger
-  image_url: picture_of_burger.gif
   price: 12.99

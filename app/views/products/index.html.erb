@@ -1,35 +1,59 @@
+<% content_for(:head) do %>
+<style>
+	#new_product_div{
+		width:920px;;
+		padding:10px;
+		background-color:white;
+		z-index:10;
+		display:none;
+		margin:10px;
+		-moz-box-shadow: 0 0 5px #888;
+-webkit-box-shadow: 0 0 5px#888;
+box-shadow: 0 0 5px #888;
+	}
+	#new_product_button{
+		cursor:pointer;
+	}
+</style>
+<script type="text/javascript">
+	$(function(){
+		$('#new_product_button').click(function(event){
+			$('#new_product_div').slideDown('500');
+		});
+	});
+</script>
 
+<% end %>
+<div id="new_product_div">
+<%= render 'form' %>
+</div>
 <div id="product_list"> 
+
+<h1 id="new_product_button">Add New Item</h1>
+
   <h1>Listing products</h1> 
  
-  <table> 
-  <% @products.each do |product| %>
-    <tr class="<%= cycle('list_line_odd', 'list_line_even') %>"> 
  
-      <td> 
-        <%= image_tag(product.image_url, :class => 'list_image') %>
-      </td> 
- 
-      <td class="list_description"> 
-        <dl> 
-          <dt><%= product.title %></dt> 
-          <dd><%= truncate(strip_tags(product.description),
-                 :length => 80) %></dd> 
-        </dl> 
-      </td> 
- 
-      <td class="list_actions"> 
-        <%= link_to 'Show', product %><br/> 
-        <%= link_to 'Edit', edit_product_path(product) %><br/> 
-        <%= link_to 'Destroy', product, 
-                    :confirm => 'Are you sure?',
-                    :method => :delete %>
-      </td> 
-    </tr> 
-  <% end %>
-  </table> 
+<ul class="menu_list">
+
+<% @products.each do |product| %>
+	<li>
+	<div class="menu_item"><!--This is the begining of the menu items div ##############################################################-->
+		<h3><%= product.title %></h3>	
+		<%= image_tag product.image.url(:large) %>
+		<%= sanitize(product.description)%>
+			<span class="price"><%= number_to_currency(product.price) %></span>
+		
+        <%= link_to 'Edit Item', edit_product_path(product), :class=>'edit_item_button' %><br/> 
+        <%= button_to 'X',product_path(product.id), :method => :delete, :confirm => "are you sure you want to take this off the menu?",:class=> 'delete_button'%>
+        
+      			
+	</div><!--this is the end of the menu items div ##########################################################################-->
+	</li>
+<%end%><!-- #ends the @products.each do |product| iterator. --> 
+
+</ul><!--end of the menu list ul element-->
+
 </div> 
  
-<br /> 
- 
-<%= link_to 'New product', new_product_path %>
+

@@ -1,0 +1,1962 @@
+Script started on Wed 27 Jul 2011 07:29:36 PM CDT
+]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ clear
+[H[2J]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ Gem[K[K[Kgedit Gemfile
+]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ clear
+[H[2J]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ a[Kbundle install
+Fetching source index for http://rubygems.org/
+Enter your password to install the bundled RubyGems to your system: 
+Using rake (0.8.7) 
+Using abstract (1.0.0) 
+Using activesupport (3.0.7) 
+Using builder (2.1.2) 
+Using i18n (0.5.0) 
+Using activemodel (3.0.7) 
+Using erubis (2.6.6) 
+Using rack (1.2.2) 
+Using rack-mount (0.6.14) 
+Using rack-test (0.5.7) 
+Using tzinfo (0.3.27) 
+Using actionpack (3.0.7) 
+Using mime-types (1.16) 
+Using polyglot (0.3.1) 
+Using treetop (1.4.9) 
+Using mail (2.2.19) 
+Using actionmailer (3.0.7) 
+Using arel (2.0.9) 
+Using activerecord (3.0.7) 
+Using activeresource (3.0.7) 
+Using bundler (1.0.12) 
+Installing cocaine (0.1.0) 
+Installing paperclip (2.3.15) 
+Using thor (0.14.6) 
+Using railties (3.0.7) 
+Using rails (3.0.7) 
+Using sqlite3 (1.3.3) 
+[32mYour bundle is complete! Use `bundle show [gemname]` to see where a bundled gem is installed.[0m
+]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ gedit app/modelo[Ks/po[Krodut[Kct.rb
+]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ gedit test/fun[Kc[Knctiona[K[K[K[K[K[K[K[K[Kunit/product[Kt_test.rb
+]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ clear
+[H[2J]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ ar[K[Krake db:migrate
+(in /home/spencer/rails_projects/depot)
+]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ clear
+[H[2J]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ rake db:seed
+(in /home/spencer/rails_projects/depot)
+]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ rake db:rollback
+(in /home/spencer/rails_projects/depot)
+==  CreateProducts: reverting =================================================
+-- drop_table(:products)
+   -> 0.0007s
+==  CreateProducts: reverted (0.0008s) ========================================
+
+]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ clear
+[H[2J]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ rake db:migrate
+(in /home/spencer/rails_projects/depot)
+==  CreateProducts: migrating =================================================
+-- create_table(:products)
+   -> 0.0012s
+==  CreateProducts: migrated (0.0012s) ========================================
+
+]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ rake db:seed
+(in /home/spencer/rails_projects/depot)
+]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ clear
+[H[2J]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ which convert
+/usr/bin/convert
+]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ gedit config/environments/development.rb)[K
+]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ clear
+[H[2J]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ [K]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ [K]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ [K]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ clear
+[H[2J]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ rails generate migration[K]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ rails generate migrationadd[K[K[K add_menu_img_to_products[1P_to_products[1P_to_products[1P_to_products[1Pto_products[1P_to_products[1P_to_products[1P_to_products[1P_to_productsM_to_productse_to_products[1P_to_products[1P_to_productsm_to_productse_to_productsn_to_productsu_to_productsi_to_productsm_to_productsa_to_productsg_to_productse_to_products[1P_to_products[1P_to_products[1P_to_products[1P_to_products[1P_to_products[C_to_productsi_to_productsm_to_productsa_to_productsg_to_productse_to_products[C[C[C[C[C[C[C[C_to_productsc_to_productso_to_productsl_to_productsu_to_productsm_to_productsn_to_productss_to_productsd_to_products[1P_to_products[C[C[C[C[C[C[C[C[C[C[C[C menu_image:[K_name:string[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kscript/generate
+bash: script/generate: No such file or directory
+]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ clear
+[H[2J]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ paperclip
+paperclip: command not found
+]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ clear
+[H[2J]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ rails paperclip
+Error: Command not recognized
+Usage: rails COMMAND [ARGS]
+
+The most common rails commands are:
+ generate    Generate new code (short-cut alias: "g")
+ console     Start the Rails console (short-cut alias: "c")
+ server      Start the Rails server (short-cut alias: "s")
+ dbconsole   Start a console for the database specified in config/database.yml
+             (short-cut alias: "db")
+ new         Create a new Rails application. "rails new my_app" creates a
+             new application called MyApp in "./my_app"
+
+In addition to those, there are:
+ application  Generate the Rails application code
+ destroy      Undo code generated with "generate"
+ benchmarker  See how fast a piece of code runs
+ profiler     Get profile information from a piece of code
+ plugin       Install a plugin
+ runner       Run a piece of code in the application environment
+
+All commands can be run with -h for more information.
+]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ clear
+[H[2J]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ rails generate migration add_p[Kimages[K_to_products
+[1m[37m      invoke[0m  active_record
+[1m[32m      create[0m    db/migrate/20110728010425_add_image_to_products.rb
+]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ clear
+[H[2J]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ clear
+[H[2J]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ rake db:migrate
+(in /home/spencer/rails_projects/depot)
+==  AddImageToProducts: migrating =============================================
+-- add_column(:products, :image_file_name, :string)
+   -> 0.0006s
+-- add_column(:products, :image_content_type, :string)
+   -> 0.0004s
+-- add_column(:products, :image_file_size, :integer)
+   -> 0.0003s
+-- add_column(:products, :image_updated_at, :datetime)
+   -> 0.0003s
+==  AddImageToProducts: migrated (0.0019s) ====================================
+
+]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ clear
+[H[2J]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ rake test
+(in /home/spencer/rails_projects/depot)
+Loaded suite /var/lib/gems/1.8/gems/rake-0.8.7/lib/rake/rake_test_loader
+Started
+EEE
+Finished in 0.011207 seconds.
+
+  1) Error:
+test_Product_attributes_must_not_be_empty(ProductTest):
+ActiveRecord::StatementInvalid: SQLite3::SQLException: table products has no column named image_url: INSERT INTO "products" ("price", "created_at", "image_url", "title", "updated_at", "id", "description") VALUES (9.99, '2011-07-28 01:07:15', 'picture_of_pizza.png', 'pizza', '2011-07-28 01:07:15', 391435603, 'this is a description of a pizza')
+    
+
+  2) Error:
+test_product_is_not_valid_without_a_unique_title(ProductTest):
+ActiveRecord::StatementInvalid: SQLite3::SQLException: table products has no column named image_url: INSERT INTO "products" ("price", "created_at", "image_url", "title", "updated_at", "id", "description") VALUES (9.99, '2011-07-28 01:07:15', 'picture_of_pizza.png', 'pizza', '2011-07-28 01:07:15', 391435603, 'this is a description of a pizza')
+    
+
+  3) Error:
+test_product_price_must_be_positive(ProductTest):
+ActiveRecord::StatementInvalid: SQLite3::SQLException: table products has no column named image_url: INSERT INTO "products" ("price", "created_at", "image_url", "title", "updated_at", "id", "description") VALUES (9.99, '2011-07-28 01:07:15', 'picture_of_pizza.png', 'pizza', '2011-07-28 01:07:15', 391435603, 'this is a description of a pizza')
+    
+
+3 tests, 0 assertions, 0 failures, 3 errors
+Loaded suite /var/lib/gems/1.8/gems/rake-0.8.7/lib/rake/rake_test_loader
+Started
+EEEEEEEE
+Finished in 0.021437 seconds.
+
+  1) Error:
+test_should_create_product(ProductsControllerTest):
+ActiveRecord::StatementInvalid: SQLite3::SQLException: table products has no column named image_url: INSERT INTO "products" ("price", "created_at", "image_url", "title", "updated_at", "id", "description") VALUES (9.99, '2011-07-28 01:07:17', 'picture_of_pizza.png', 'pizza', '2011-07-28 01:07:17', 391435603, 'this is a description of a pizza')
+    
+
+  2) Error:
+test_should_destroy_product(ProductsControllerTest):
+ActiveRecord::StatementInvalid: SQLite3::SQLException: table products has no column named image_url: INSERT INTO "products" ("price", "created_at", "image_url", "title", "updated_at", "id", "description") VALUES (9.99, '2011-07-28 01:07:17', 'picture_of_pizza.png', 'pizza', '2011-07-28 01:07:17', 391435603, 'this is a description of a pizza')
+    
+
+  3) Error:
+test_should_get_edit(ProductsControllerTest):
+ActiveRecord::StatementInvalid: SQLite3::SQLException: table products has no column named image_url: INSERT INTO "products" ("price", "created_at", "image_url", "title", "updated_at", "id", "description") VALUES (9.99, '2011-07-28 01:07:17', 'picture_of_pizza.png', 'pizza', '2011-07-28 01:07:17', 391435603, 'this is a description of a pizza')
+    
+
+  4) Error:
+test_should_get_index(ProductsControllerTest):
+ActiveRecord::StatementInvalid: SQLite3::SQLException: table products has no column named image_url: INSERT INTO "products" ("price", "created_at", "image_url", "title", "updated_at", "id", "description") VALUES (9.99, '2011-07-28 01:07:17', 'picture_of_pizza.png', 'pizza', '2011-07-28 01:07:17', 391435603, 'this is a description of a pizza')
+    
+
+  5) Error:
+test_should_get_new(ProductsControllerTest):
+ActiveRecord::StatementInvalid: SQLite3::SQLException: table products has no column named image_url: INSERT INTO "products" ("price", "created_at", "image_url", "title", "updated_at", "id", "description") VALUES (9.99, '2011-07-28 01:07:17', 'picture_of_pizza.png', 'pizza', '2011-07-28 01:07:17', 391435603, 'this is a description of a pizza')
+    
+
+  6) Error:
+test_should_show_product(ProductsControllerTest):
+ActiveRecord::StatementInvalid: SQLite3::SQLException: table products has no column named image_url: INSERT INTO "products" ("price", "created_at", "image_url", "title", "updated_at", "id", "description") VALUES (9.99, '2011-07-28 01:07:17', 'picture_of_pizza.png', 'pizza', '2011-07-28 01:07:17', 391435603, 'this is a description of a pizza')
+    
+
+  7) Error:
+test_should_update_product(ProductsControllerTest):
+ActiveRecord::StatementInvalid: SQLite3::SQLException: table products has no column named image_url: INSERT INTO "products" ("price", "created_at", "image_url", "title", "updated_at", "id", "description") VALUES (9.99, '2011-07-28 01:07:17', 'picture_of_pizza.png', 'pizza', '2011-07-28 01:07:17', 391435603, 'this is a description of a pizza')
+    
+
+  8) Error:
+test_should_get_index(StoreControllerTest):
+ActiveRecord::StatementInvalid: SQLite3::SQLException: table products has no column named image_url: INSERT INTO "products" ("price", "created_at", "image_url", "title", "updated_at", "id", "description") VALUES (9.99, '2011-07-28 01:07:17', 'picture_of_pizza.png', 'pizza', '2011-07-28 01:07:17', 391435603, 'this is a description of a pizza')
+    
+
+8 tests, 0 assertions, 0 failures, 8 errors
+Errors running test:units, test:functionals!
+]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ clear
+[H[2J]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ rake d[Ktest
+(in /home/spencer/rails_projects/depot)
+Loaded suite /var/lib/gems/1.8/gems/rake-0.8.7/lib/rake/rake_test_loader
+Started
+EEE
+Finished in 0.011192 seconds.
+
+  1) Error:
+test_Product_attributes_must_not_be_empty(ProductTest):
+ActiveRecord::StatementInvalid: SQLite3::SQLException: table products has no column named image_url: INSERT INTO "products" ("price", "created_at", "image_url", "title", "updated_at", "id", "description") VALUES (9.99, '2011-07-28 01:07:47', 'picture_of_pizza.png', 'pizza', '2011-07-28 01:07:47', 391435603, 'this is a description of a pizza')
+    
+
+  2) Error:
+test_product_is_not_valid_without_a_unique_title(ProductTest):
+ActiveRecord::StatementInvalid: SQLite3::SQLException: table products has no column named image_url: INSERT INTO "products" ("price", "created_at", "image_url", "title", "updated_at", "id", "description") VALUES (9.99, '2011-07-28 01:07:47', 'picture_of_pizza.png', 'pizza', '2011-07-28 01:07:47', 391435603, 'this is a description of a pizza')
+    
+
+  3) Error:
+test_product_price_must_be_positive(ProductTest):
+ActiveRecord::StatementInvalid: SQLite3::SQLException: table products has no column named image_url: INSERT INTO "products" ("price", "created_at", "image_url", "title", "updated_at", "id", "description") VALUES (9.99, '2011-07-28 01:07:47', 'picture_of_pizza.png', 'pizza', '2011-07-28 01:07:47', 391435603, 'this is a description of a pizza')
+    
+
+3 tests, 0 assertions, 0 failures, 3 errors
+Loaded suite /var/lib/gems/1.8/gems/rake-0.8.7/lib/rake/rake_test_loader
+Started
+EEEEEEEE
+Finished in 0.021151 seconds.
+
+  1) Error:
+test_should_create_product(ProductsControllerTest):
+ActiveRecord::StatementInvalid: SQLite3::SQLException: table products has no column named image_url: INSERT INTO "products" ("price", "created_at", "image_url", "title", "updated_at", "id", "description") VALUES (9.99, '2011-07-28 01:07:48', 'picture_of_pizza.png', 'pizza', '2011-07-28 01:07:48', 391435603, 'this is a description of a pizza')
+    
+
+  2) Error:
+test_should_destroy_product(ProductsControllerTest):
+ActiveRecord::StatementInvalid: SQLite3::SQLException: table products has no column named image_url: INSERT INTO "products" ("price", "created_at", "image_url", "title", "updated_at", "id", "description") VALUES (9.99, '2011-07-28 01:07:48', 'picture_of_pizza.png', 'pizza', '2011-07-28 01:07:48', 391435603, 'this is a description of a pizza')
+    
+
+  3) Error:
+test_should_get_edit(ProductsControllerTest):
+ActiveRecord::StatementInvalid: SQLite3::SQLException: table products has no column named image_url: INSERT INTO "products" ("price", "created_at", "image_url", "title", "updated_at", "id", "description") VALUES (9.99, '2011-07-28 01:07:48', 'picture_of_pizza.png', 'pizza', '2011-07-28 01:07:48', 391435603, 'this is a description of a pizza')
+    
+
+  4) Error:
+test_should_get_index(ProductsControllerTest):
+ActiveRecord::StatementInvalid: SQLite3::SQLException: table products has no column named image_url: INSERT INTO "products" ("price", "created_at", "image_url", "title", "updated_at", "id", "description") VALUES (9.99, '2011-07-28 01:07:48', 'picture_of_pizza.png', 'pizza', '2011-07-28 01:07:48', 391435603, 'this is a description of a pizza')
+    
+
+  5) Error:
+test_should_get_new(ProductsControllerTest):
+ActiveRecord::StatementInvalid: SQLite3::SQLException: table products has no column named image_url: INSERT INTO "products" ("price", "created_at", "image_url", "title", "updated_at", "id", "description") VALUES (9.99, '2011-07-28 01:07:48', 'picture_of_pizza.png', 'pizza', '2011-07-28 01:07:48', 391435603, 'this is a description of a pizza')
+    
+
+  6) Error:
+test_should_show_product(ProductsControllerTest):
+ActiveRecord::StatementInvalid: SQLite3::SQLException: table products has no column named image_url: INSERT INTO "products" ("price", "created_at", "image_url", "title", "updated_at", "id", "description") VALUES (9.99, '2011-07-28 01:07:48', 'picture_of_pizza.png', 'pizza', '2011-07-28 01:07:48', 391435603, 'this is a description of a pizza')
+    
+
+  7) Error:
+test_should_update_product(ProductsControllerTest):
+ActiveRecord::StatementInvalid: SQLite3::SQLException: table products has no column named image_url: INSERT INTO "products" ("price", "created_at", "image_url", "title", "updated_at", "id", "description") VALUES (9.99, '2011-07-28 01:07:48', 'picture_of_pizza.png', 'pizza', '2011-07-28 01:07:48', 391435603, 'this is a description of a pizza')
+    
+
+  8) Error:
+test_should_get_index(StoreControllerTest):
+ActiveRecord::StatementInvalid: SQLite3::SQLException: table products has no column named image_url: INSERT INTO "products" ("price", "created_at", "image_url", "title", "updated_at", "id", "description") VALUES (9.99, '2011-07-28 01:07:48', 'picture_of_pizza.png', 'pizza', '2011-07-28 01:07:48', 391435603, 'this is a description of a pizza')
+    
+
+8 tests, 0 assertions, 0 failures, 8 errors
+Errors running test:units, test:functionals!
+]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ clear
+[H[2J]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ gedit app/views[K[K[K[K[K[K[K[K[Ktesw[Ks[Kt/fixtures/product.r[K[Ks[K_[K.rb
+]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ clear
+[H[2J]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ raked[K test
+(in /home/spencer/rails_projects/depot)
+Loaded suite /var/lib/gems/1.8/gems/rake-0.8.7/lib/rake/rake_test_loader
+Started
+.EE
+Finished in 0.192283 seconds.
+
+  1) Error:
+test_product_is_not_valid_without_a_unique_title(ProductTest):
+ActiveRecord::UnknownAttributeError: unknown attribute: image_url
+    /test/unit/product_test.rb:35:in `new'
+    /test/unit/product_test.rb:35:in `test_product_is_not_valid_without_a_unique_title'
+
+  2) Error:
+test_product_price_must_be_positive(ProductTest):
+ActiveRecord::UnknownAttributeError: unknown attribute: image_url
+    /test/unit/product_test.rb:13:in `new'
+    /test/unit/product_test.rb:13:in `test_product_price_must_be_positive'
+
+3 tests, 4 assertions, 0 failures, 2 errors
+Loaded suite /var/lib/gems/1.8/gems/rake-0.8.7/lib/rake/rake_test_loader
+Started
+EEE.EEE.
+Finished in 0.36195 seconds.
+
+  1) Error:
+test_should_create_product(ProductsControllerTest):
+ActiveRecord::UnknownAttributeError: unknown attribute: image_url
+    app/controllers/products_controller.rb:43:in `new'
+    app/controllers/products_controller.rb:43:in `create'
+    /test/functional/products_controller_test.rb:35:in `test_should_create_product'
+    /test/functional/products_controller_test.rb:34:in `test_should_create_product'
+
+  2) Error:
+test_should_destroy_product(ProductsControllerTest):
+NoMethodError: undefined method `menu_img_file_name' for #<Product:0x7f1068edd440>
+    app/controllers/products_controller.rb:76:in `destroy'
+    /test/functional/products_controller_test.rb:62:in `test_should_destroy_product'
+    /test/functional/products_controller_test.rb:61:in `test_should_destroy_product'
+
+  3) Error:
+test_should_get_edit(ProductsControllerTest):
+ActionView::Template::Error: undefined method `image_url' for #<Product:0x7f1068ea33d0>
+    app/views/products/_form.html.erb:24:in `_app_views_products__form_html_erb___1123619132_69854228135560_1066430'
+    app/views/products/_form.html.erb:1:in `_app_views_products__form_html_erb___1123619132_69854228135560_1066430'
+    app/views/products/edit.html.erb:3:in `_app_views_products_edit_html_erb__1047679155_69854228150260_0'
+    /test/functional/products_controller_test.rb:49:in `test_should_get_edit'
+
+  4) Error:
+test_should_get_new(ProductsControllerTest):
+ActionView::Template::Error: undefined method `image_url' for #<Product:0x7f1068d45010>
+    app/views/products/_form.html.erb:24:in `_app_views_products__form_html_erb___1123619132_69854228135560_1066430'
+    app/views/products/_form.html.erb:1:in `_app_views_products__form_html_erb___1123619132_69854228135560_1066430'
+    app/views/products/new.html.erb:3:in `_app_views_products_new_html_erb___2094067854_69854227462400_0'
+    app/controllers/products_controller.rb:29:in `new'
+    /test/functional/products_controller_test.rb:29:in `test_should_get_new'
+
+  5) Error:
+test_should_show_product(ProductsControllerTest):
+ActionView::Template::Error: undefined method `image_url' for #<Product:0x7f1068d03430>
+    app/views/products/show.html.erb:15:in `_app_views_products_show_html_erb__484905286_69854227330040_0'
+    app/controllers/products_controller.rb:18:in `show'
+    /test/functional/products_controller_test.rb:44:in `test_should_show_product'
+
+  6) Error:
+test_should_update_product(ProductsControllerTest):
+ActiveRecord::UnknownAttributeError: unknown attribute: image_url
+    app/controllers/products_controller.rb:62:in `update'
+    app/controllers/products_controller.rb:61:in `update'
+    /test/functional/products_controller_test.rb:54:in `test_should_update_product'
+
+8 tests, 3 assertions, 0 failures, 6 errors
+Errors running test:units, test:functionals!
+]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ clear
+[H[2J]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ raked[K test
+(in /home/spencer/rails_projects/depot)
+Loaded suite /var/lib/gems/1.8/gems/rake-0.8.7/lib/rake/rake_test_loader
+Started
+.EE
+Finished in 0.184271 seconds.
+
+  1) Error:
+test_product_is_not_valid_without_a_unique_title(ProductTest):
+ActiveRecord::UnknownAttributeError: unknown attribute: image_url
+    /test/unit/product_test.rb:35:in `new'
+    /test/unit/product_test.rb:35:in `test_product_is_not_valid_without_a_unique_title'
+
+  2) Error:
+test_product_price_must_be_positive(ProductTest):
+ActiveRecord::UnknownAttributeError: unknown attribute: image_url
+    /test/unit/product_test.rb:13:in `new'
+    /test/unit/product_test.rb:13:in `test_product_price_must_be_positive'
+
+3 tests, 4 assertions, 0 failures, 2 errors
+Loaded suite /var/lib/gems/1.8/gems/rake-0.8.7/lib/rake/rake_test_loader
+Started
+.EE.EE..
+Finished in 0.260012 seconds.
+
+  1) Error:
+test_should_destroy_product(ProductsControllerTest):
+NoMethodError: undefined method `menu_img_file_name' for #<Product:0x7f86fadfb320>
+    app/controllers/products_controller.rb:76:in `destroy'
+    /test/functional/products_controller_test.rb:61:in `test_should_destroy_product'
+    /test/functional/products_controller_test.rb:60:in `test_should_destroy_product'
+
+  2) Error:
+test_should_get_edit(ProductsControllerTest):
+ActionView::Template::Error: undefined method `image_url' for #<Product:0x7f86fadc8df8>
+    app/views/products/_form.html.erb:24:in `_app_views_products__form_html_erb___1123619132_70108855489980_1066430'
+    app/views/products/_form.html.erb:1:in `_app_views_products__form_html_erb___1123619132_70108855489980_1066430'
+    app/views/products/edit.html.erb:3:in `_app_views_products_edit_html_erb__1047679155_70108855505720_0'
+    /test/functional/products_controller_test.rb:48:in `test_should_get_edit'
+
+  3) Error:
+test_should_get_new(ProductsControllerTest):
+ActionView::Template::Error: undefined method `image_url' for #<Product:0x7f86fac928d0>
+    app/views/products/_form.html.erb:24:in `_app_views_products__form_html_erb___1123619132_70108855489980_1066430'
+    app/views/products/_form.html.erb:1:in `_app_views_products__form_html_erb___1123619132_70108855489980_1066430'
+    app/views/products/new.html.erb:3:in `_app_views_products_new_html_erb___2094067854_70108854908340_0'
+    app/controllers/products_controller.rb:29:in `new'
+    /test/functional/products_controller_test.rb:28:in `test_should_get_new'
+
+  4) Error:
+test_should_show_product(ProductsControllerTest):
+ActionView::Template::Error: undefined method `image_url' for #<Product:0x7f86fac31760>
+    app/views/products/show.html.erb:15:in `_app_views_products_show_html_erb__484905286_70108854704840_0'
+    app/controllers/products_controller.rb:18:in `show'
+    /test/functional/products_controller_test.rb:43:in `test_should_show_product'
+
+8 tests, 6 assertions, 0 failures, 4 errors
+Errors running test:units, test:functionals!
+]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ clear
+[H[2J]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ rakd db:pre[K[K[K[K[K[K[K[Ke tes[K[K[Kde[Kb:test:re[K[Kprepare
+(in /home/spencer/rails_projects/depot)
+]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ clear
+[H[2J]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ rake test
+(in /home/spencer/rails_projects/depot)
+Loaded suite /var/lib/gems/1.8/gems/rake-0.8.7/lib/rake/rake_test_loader
+Started
+.EE
+Finished in 0.195986 seconds.
+
+  1) Error:
+test_product_is_not_valid_without_a_unique_title(ProductTest):
+ActiveRecord::UnknownAttributeError: unknown attribute: image_url
+    /test/unit/product_test.rb:35:in `new'
+    /test/unit/product_test.rb:35:in `test_product_is_not_valid_without_a_unique_title'
+
+  2) Error:
+test_product_price_must_be_positive(ProductTest):
+ActiveRecord::UnknownAttributeError: unknown attribute: image_url
+    /test/unit/product_test.rb:13:in `new'
+    /test/unit/product_test.rb:13:in `test_product_price_must_be_positive'
+
+3 tests, 4 assertions, 0 failures, 2 errors
+Loaded suite /var/lib/gems/1.8/gems/rake-0.8.7/lib/rake/rake_test_loader
+Started
+.EE.EE..
+Finished in 0.278368 seconds.
+
+  1) Error:
+test_should_destroy_product(ProductsControllerTest):
+NoMethodError: undefined method `menu_img_file_name' for #<Product:0x7fd75955d420>
+    app/controllers/products_controller.rb:76:in `destroy'
+    /test/functional/products_controller_test.rb:61:in `test_should_destroy_product'
+    /test/functional/products_controller_test.rb:60:in `test_should_destroy_product'
+
+  2) Error:
+test_should_get_edit(ProductsControllerTest):
+ActionView::Template::Error: undefined method `image_url' for #<Product:0x7fd75952a638>
+    app/views/products/_form.html.erb:24:in `_app_views_products__form_html_erb___1123619132_70281446581580_1066430'
+    app/views/products/_form.html.erb:1:in `_app_views_products__form_html_erb___1123619132_70281446581580_1066430'
+    app/views/products/edit.html.erb:3:in `_app_views_products_edit_html_erb__1047679155_70281446597360_0'
+    /test/functional/products_controller_test.rb:48:in `test_should_get_edit'
+
+  3) Error:
+test_should_get_new(ProductsControllerTest):
+ActionView::Template::Error: undefined method `image_url' for #<Product:0x7fd7593f4110>
+    app/views/products/_form.html.erb:24:in `_app_views_products__form_html_erb___1123619132_70281446581580_1066430'
+    app/views/products/_form.html.erb:1:in `_app_views_products__form_html_erb___1123619132_70281446581580_1066430'
+    app/views/products/new.html.erb:3:in `_app_views_products_new_html_erb___2094067854_70281445999060_0'
+    app/controllers/products_controller.rb:29:in `new'
+    /test/functional/products_controller_test.rb:28:in `test_should_get_new'
+
+  4) Error:
+test_should_show_product(ProductsControllerTest):
+ActionView::Template::Error: undefined method `image_url' for #<Product:0x7fd759392fa0>
+    app/views/products/show.html.erb:15:in `_app_views_products_show_html_erb__484905286_70281445795580_0'
+    app/controllers/products_controller.rb:18:in `show'
+    /test/functional/products_controller_test.rb:43:in `test_should_show_product'
+
+8 tests, 6 assertions, 0 failures, 4 errors
+Errors running test:units, test:functionals!
+]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ clear
+[H[2J]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ rake test
+(in /home/spencer/rails_projects/depot)
+Loaded suite /var/lib/gems/1.8/gems/rake-0.8.7/lib/rake/rake_test_loader
+Started
+.EE
+Finished in 0.27113 seconds.
+
+  1) Error:
+test_product_is_not_valid_without_a_unique_title(ProductTest):
+ActiveRecord::UnknownAttributeError: unknown attribute: image_url
+    /test/unit/product_test.rb:35:in `new'
+    /test/unit/product_test.rb:35:in `test_product_is_not_valid_without_a_unique_title'
+
+  2) Error:
+test_product_price_must_be_positive(ProductTest):
+ActiveRecord::UnknownAttributeError: unknown attribute: image_url
+    /test/unit/product_test.rb:13:in `new'
+    /test/unit/product_test.rb:13:in `test_product_price_must_be_positive'
+
+3 tests, 4 assertions, 0 failures, 2 errors
+Loaded suite /var/lib/gems/1.8/gems/rake-0.8.7/lib/rake/rake_test_loader
+Started
+..E.EE..
+Finished in 0.272044 seconds.
+
+  1) Error:
+test_should_get_edit(ProductsControllerTest):
+ActionView::Template::Error: undefined method `image_url' for #<Product:0x7fa53c6081a8>
+    app/views/products/_form.html.erb:24:in `_app_views_products__form_html_erb___1123619132_70173829583380_1066430'
+    app/views/products/_form.html.erb:1:in `_app_views_products__form_html_erb___1123619132_70173829583380_1066430'
+    app/views/products/edit.html.erb:3:in `_app_views_products_edit_html_erb__1047679155_70173829607960_0'
+    /test/functional/products_controller_test.rb:48:in `test_should_get_edit'
+
+  2) Error:
+test_should_get_new(ProductsControllerTest):
+ActionView::Template::Error: undefined method `image_url' for #<Product:0x7fa53c4e2760>
+    app/views/products/_form.html.erb:24:in `_app_views_products__form_html_erb___1123619132_70173829583380_1066430'
+    app/views/products/_form.html.erb:1:in `_app_views_products__form_html_erb___1123619132_70173829583380_1066430'
+    app/views/products/new.html.erb:3:in `_app_views_products_new_html_erb___2094067854_70173829030280_0'
+    app/controllers/products_controller.rb:29:in `new'
+    /test/functional/products_controller_test.rb:28:in `test_should_get_new'
+
+  3) Error:
+test_should_show_product(ProductsControllerTest):
+ActionView::Template::Error: undefined method `image_url' for #<Product:0x7fa53c47c730>
+    app/views/products/show.html.erb:15:in `_app_views_products_show_html_erb__484905286_70173828818040_0'
+    app/controllers/products_controller.rb:18:in `show'
+    /test/functional/products_controller_test.rb:43:in `test_should_show_product'
+
+8 tests, 8 assertions, 0 failures, 3 errors
+Errors running test:units, test:functionals!
+]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ geid[K[Kdt[Kit app./[K[K/views/products/_form.html.erb
+]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ clear
+[H[2J]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ rkae[K[K[K[Krake test
+(in /home/spencer/rails_projects/depot)
+Loaded suite /var/lib/gems/1.8/gems/rake-0.8.7/lib/rake/rake_test_loader
+Started
+.EE
+Finished in 0.207057 seconds.
+
+  1) Error:
+test_product_is_not_valid_without_a_unique_title(ProductTest):
+ActiveRecord::UnknownAttributeError: unknown attribute: image_url
+    /test/unit/product_test.rb:35:in `new'
+    /test/unit/product_test.rb:35:in `test_product_is_not_valid_without_a_unique_title'
+
+  2) Error:
+test_product_price_must_be_positive(ProductTest):
+ActiveRecord::UnknownAttributeError: unknown attribute: image_url
+    /test/unit/product_test.rb:13:in `new'
+    /test/unit/product_test.rb:13:in `test_product_price_must_be_positive'
+
+3 tests, 4 assertions, 0 failures, 2 errors
+Loaded suite /var/lib/gems/1.8/gems/rake-0.8.7/lib/rake/rake_test_loader
+Started
+.....E..
+Finished in 0.268566 seconds.
+
+  1) Error:
+test_should_show_product(ProductsControllerTest):
+ActionView::Template::Error: undefined method `image_url' for #<Product:0x7f4e8fb0bc58>
+    app/views/products/show.html.erb:15:in `_app_views_products_show_html_erb__484905286_69987697430260_0'
+    app/controllers/products_controller.rb:18:in `show'
+    /test/functional/products_controller_test.rb:43:in `test_should_show_product'
+
+8 tests, 10 assertions, 0 failures, 1 errors
+Errors running test:units, test:functionals!
+]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ clear
+[H[2J]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ rke [K[K[K[Krake test
+(in /home/spencer/rails_projects/depot)
+/var/lib/gems/1.8/gems/activesupport-3.0.7/lib/active_support/dependencies.rb:235:in `load': ./test/unit/product_test.rb:18: syntax error, unexpected ')' (SyntaxError)
+	from /var/lib/gems/1.8/gems/activesupport-3.0.7/lib/active_support/dependencies.rb:235:in `load'
+	from /var/lib/gems/1.8/gems/activesupport-3.0.7/lib/active_support/dependencies.rb:227:in `load_dependency'
+	from /var/lib/gems/1.8/gems/activesupport-3.0.7/lib/active_support/dependencies.rb:235:in `load'
+	from /var/lib/gems/1.8/gems/rake-0.8.7/lib/rake/rake_test_loader.rb:5
+	from /var/lib/gems/1.8/gems/rake-0.8.7/lib/rake/rake_test_loader.rb:5:in `each'
+	from /var/lib/gems/1.8/gems/rake-0.8.7/lib/rake/rake_test_loader.rb:5
+Loaded suite /var/lib/gems/1.8/gems/rake-0.8.7/lib/rake/rake_test_loader
+Started
+.....E..
+Finished in 0.294138 seconds.
+
+  1) Error:
+test_should_show_product(ProductsControllerTest):
+ActionView::Template::Error: undefined method `image_url' for #<Product:0x7f3e164f9b00>
+    app/views/products/show.html.erb:15:in `_app_views_products_show_html_erb__484905286_69952319487560_0'
+    app/controllers/products_controller.rb:18:in `show'
+    /test/functional/products_controller_test.rb:43:in `test_should_show_product'
+
+8 tests, 10 assertions, 0 failures, 1 errors
+Errors running test:units, test:functionals!
+]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ gedit app/.[Kviews/prou[Kducts/show.html.erb
+]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ clear
+[H[2J]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ rk[Kake db:[K[K[Ktest
+(in /home/spencer/rails_projects/depot)
+/var/lib/gems/1.8/gems/activesupport-3.0.7/lib/active_support/dependencies.rb:235:in `load': ./test/unit/product_test.rb:18: syntax error, unexpected ')' (SyntaxError)
+	from /var/lib/gems/1.8/gems/activesupport-3.0.7/lib/active_support/dependencies.rb:235:in `load'
+	from /var/lib/gems/1.8/gems/activesupport-3.0.7/lib/active_support/dependencies.rb:227:in `load_dependency'
+	from /var/lib/gems/1.8/gems/activesupport-3.0.7/lib/active_support/dependencies.rb:235:in `load'
+	from /var/lib/gems/1.8/gems/rake-0.8.7/lib/rake/rake_test_loader.rb:5
+	from /var/lib/gems/1.8/gems/rake-0.8.7/lib/rake/rake_test_loader.rb:5:in `each'
+	from /var/lib/gems/1.8/gems/rake-0.8.7/lib/rake/rake_test_loader.rb:5
+Loaded suite /var/lib/gems/1.8/gems/rake-0.8.7/lib/rake/rake_test_loader
+Started
+........
+Finished in 0.287154 seconds.
+
+8 tests, 11 assertions, 0 failures, 0 errors
+Errors running test:units!
+]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ clear
+[H[2J]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ rake test
+(in /home/spencer/rails_projects/depot)
+/var/lib/gems/1.8/gems/activesupport-3.0.7/lib/active_support/dependencies.rb:235:in `load': ./test/unit/product_test.rb:18: syntax error, unexpected ')' (SyntaxError)
+	from /var/lib/gems/1.8/gems/activesupport-3.0.7/lib/active_support/dependencies.rb:235:in `load'
+	from /var/lib/gems/1.8/gems/activesupport-3.0.7/lib/active_support/dependencies.rb:227:in `load_dependency'
+	from /var/lib/gems/1.8/gems/activesupport-3.0.7/lib/active_support/dependencies.rb:235:in `load'
+	from /var/lib/gems/1.8/gems/rake-0.8.7/lib/rake/rake_test_loader.rb:5
+	from /var/lib/gems/1.8/gems/rake-0.8.7/lib/rake/rake_test_loader.rb:5:in `each'
+	from /var/lib/gems/1.8/gems/rake-0.8.7/lib/rake/rake_test_loader.rb:5
+Loaded suite /var/lib/gems/1.8/gems/rake-0.8.7/lib/rake/rake_test_loader
+Started
+........
+Finished in 0.268278 seconds.
+
+8 tests, 11 assertions, 0 failures, 0 errors
+Errors running test:units!
+]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ clear
+[H[2J]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ rake test
+(in /home/spencer/rails_projects/depot)
+Loaded suite /var/lib/gems/1.8/gems/rake-0.8.7/lib/rake/rake_test_loader
+Started
+.E.
+Finished in 0.189838 seconds.
+
+  1) Error:
+test_product_is_not_valid_without_a_unique_title(ProductTest):
+ActiveRecord::UnknownAttributeError: unknown attribute: image_url
+    /test/unit/product_test.rb:35:in `new'
+    /test/unit/product_test.rb:35:in `test_product_is_not_valid_without_a_unique_title'
+
+3 tests, 8 assertions, 0 failures, 1 errors
+Loaded suite /var/lib/gems/1.8/gems/rake-0.8.7/lib/rake/rake_test_loader
+Started
+........
+Finished in 0.261303 seconds.
+
+8 tests, 11 assertions, 0 failures, 0 errors
+Errors running test:units!
+]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ clear
+[H[2J]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ rake test
+(in /home/spencer/rails_projects/depot)
+Loaded suite /var/lib/gems/1.8/gems/rake-0.8.7/lib/rake/rake_test_loader
+Started
+...
+Finished in 0.21268 seconds.
+
+3 tests, 10 assertions, 0 failures, 0 errors
+Loaded suite /var/lib/gems/1.8/gems/rake-0.8.7/lib/rake/rake_test_loader
+Started
+........
+Finished in 0.261954 seconds.
+
+8 tests, 11 assertions, 0 failures, 0 errors
+]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ clear
+[H[2J]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ rake test
+(in /home/spencer/rails_projects/depot)
+Loaded suite /var/lib/gems/1.8/gems/rake-0.8.7/lib/rake/rake_test_loader
+Started
+...
+Finished in 0.202134 seconds.
+
+3 tests, 10 assertions, 0 failures, 0 errors
+Loaded suite /var/lib/gems/1.8/gems/rake-0.8.7/lib/rake/rake_test_loader
+Started
+........
+Finished in 0.264147 seconds.
+
+8 tests, 11 assertions, 0 failures, 0 errors
+]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ clear
+[H[2J]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ rake[K[K[K[Kbundle install
+Using rake (0.8.7) 
+Using abstract (1.0.0) 
+Using activesupport (3.0.7) 
+Using builder (2.1.2) 
+Using i18n (0.5.0) 
+Using activemodel (3.0.7) 
+Using erubis (2.6.6) 
+Using rack (1.2.2) 
+Using rack-mount (0.6.14) 
+Using rack-test (0.5.7) 
+Using tzinfo (0.3.27) 
+Using actionpack (3.0.7) 
+Using mime-types (1.16) 
+Using polyglot (0.3.1) 
+Using treetop (1.4.9) 
+Using mail (2.2.19) 
+Using actionmailer (3.0.7) 
+Using arel (2.0.9) 
+Using activerecord (3.0.7) 
+Using activeresource (3.0.7) 
+Using bundler (1.0.12) 
+Using cocaine (0.1.0) 
+Using paperclip (2.3.15) 
+Using thor (0.14.6) 
+Using railties (3.0.7) 
+Using rails (3.0.7) 
+Using sqlite3 (1.3.3) 
+[32mYour bundle is complete! Use `bundle show [gemname]` to see where a bundled gem is installed.[0m
+]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ paperclki[K[Kip
+paperclip: command not found
+]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ clear
+[H[2J]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ rails generate paperclip 
+Usage:
+  rails generate paperclip NAME attachment_one attachment_two attachment_three ... [options]
+
+Runtime options:
+  -s, [--skip]     # Skip files that already exist
+  -p, [--pretend]  # Run but do not make any changes
+  -q, [--quiet]    # Supress status output
+  -f, [--force]    # Overwrite files that already exist
+
+Create a migration to add paperclip-specific fields to your model. The NAME argument is the name of your model, and the following arguments are the name of the attachments
+]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ clear
+[H[2J]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ rak[Kil [K[K[K[Kk[Kake db:rollback
+(in /home/spencer/rails_projects/depot)
+==  AddImageToProducts: reverting =============================================
+-- remove_column(:product, :image_file_name)
+rake aborted!
+An error has occurred, this and all later migrations canceled:
+
+Could not find table 'product'
+
+(See full trace by running task with --trace)
+]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ clear
+[H[2J]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ clear
+[H[2J]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ rake db:rollback
+(in /home/spencer/rails_projects/depot)
+==  AddImageToProducts: reverting =============================================
+-- remove_column(:product, :image_file_name)
+rake aborted!
+An error has occurred, this and all later migrations canceled:
+
+Could not find table 'product'
+
+(See full trace by running task with --trace)
+]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ clear
+[H[2J]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ rake db:migrate
+(in /home/spencer/rails_projects/depot)
+]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ clear
+[H[2J]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ rake db:rollback
+(in /home/spencer/rails_projects/depot)
+==  AddImageToProducts: reverting =============================================
+-- remove_column(:product, :image_file_name)
+rake aborted!
+An error has occurred, this and all later migrations canceled:
+
+Could not find table 'product'
+
+(See full trace by running task with --trace)
+]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ clear
+[H[2J]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ clear
+[H[2J]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ rake db:migrate
+(in /home/spencer/rails_projects/depot)
+]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ clear
+[H[2J]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ rake db:rollback
+(in /home/spencer/rails_projects/depot)
+]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ clear
+[H[2J]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ rake db:migrate
+(in /home/spencer/rails_projects/depot)
+]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ rake db:rollback
+(in /home/spencer/rails_projects/depot)
+rake d]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ rake db:rollback
+(in /home/spencer/rails_projects/depot)
+rake d]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ rake db:rollback
+(in /home/spencer/rails_projects/depot)
+]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ rake db:rollback
+(in /home/spencer/rails_projects/depot)
+]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ rake db:rollback
+(in /home/spencer/rails_projects/depot)
+]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ rake db:rollback
+(in /home/spencer/rails_projects/depot)
+]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ rake db:rollback
+(in /home/spencer/rails_projects/depot)
+]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ rake db:rollback
+(in /home/spencer/rails_projects/depot)
+]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ rake db:rollback
+(in /home/spencer/rails_projects/depot)
+]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ clear
+[H[2J]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ rake db:migrate
+(in /home/spencer/rails_projects/depot)
+]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ f[Krake db:rollback
+(in /home/spencer/rails_projects/depot)
+]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ rake db:rollback
+(in /home/spencer/rails_projects/depot)
+^[[A
+^[[A
+^[[A
+^[[A
+^[[A
+^[[A
+]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ rake db:rollback
+^[[A(in /home/spencer/rails_projects/depot)
+
+^[[A
+]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ rake db:rollback
+(in /home/spencer/rails_projects/depot)
+^[[A
+]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ rake db:rollback
+(in /home/spencer/rails_projects/depot)
+]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ rake db:rollback
+(in /home/spencer/rails_projects/depot)
+]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ rake db:rollback
+(in /home/spencer/rails_projects/depot)
+]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ rake db:rollback
+(in /home/spencer/rails_projects/depot)
+]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ rake db:rollback
+(in /home/spencer/rails_projects/depot)
+]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ rake db:rollback
+(in /home/spencer/rails_projects/depot)
+]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ rake db:rollback
+(in /home/spencer/rails_projects/depot)
+]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ rake db:reste[K[Ket
+(in /home/spencer/rails_projects/depot)
+db/test.sqlite3 already exists
+-- create_table("products", {:force=>true})
+   -> 0.1251s
+-- initialize_schema_migrations_table()
+   -> 0.1905s
+-- assume_migrated_upto_version(20110728010425, "db/migrate")
+   -> 0.1823s
+]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ clear
+[H[2J]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ rake db:reset
+(in /home/spencer/rails_projects/depot)
+db/test.sqlite3 already exists
+-- create_table("products", {:force=>true})
+   -> 0.1274s
+-- initialize_schema_migrations_table()
+   -> 0.2031s
+-- assume_migrated_upto_version(20110728010425, "db/migrate")
+   -> 0.1717s
+]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ clear[K[K[K[K[Krake db:rollback
+(in /home/spencer/rails_projects/depot)
+]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ clear
+[H[2J]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ sqlite3
+SQLite version 3.7.2
+Enter ".help" for instructions
+Enter SQL statements terminated with a ";"
+sqlite> DROP TABLW[KE po[Kroductss[K
+   ...> ;
+Error: no such table: products
+sqlite> DROP TABLE produ[K[Kuct;
+Error: no such table: prouct
+sqlite> table
+   ...> Drop[K[K[KROP TABLE
+   ...> ;
+Error: near "table": syntax error
+sqlite> drop table products
+   ...> ;
+Error: no such table: products
+sqlite> drop table ;produc[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kview tables;
+Error: near "view": syntax error
+sqlite> tables;
+Error: near "tables": syntax error
+sqlite> newar[K[K[K[K[Kcle[K[K[Kexit
+   ...> ;
+Error: near "exit": syntax error
+sqlite> ^Ccle
+   ...> ^C
+   ...> ^C
+   ...> ^C;
+Error: near "cle": syntax error
+sqlite> bye
+   ...> exit;
+Error: near "bye": syntax error
+sqlite> c[K;exit
+   ...> .exit
+   ...> goodbye
+   ...> ;
+Error: near "exit": syntax error
+sqlite> goodbye;
+Error: near "goodbye": syntax error
+sqlite> ]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ clear
+[H[2J]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ raked[K db:migrate
+(in /home/spencer/rails_projects/depot)
+]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ clear
+[H[2J]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ clear
+[H[2J]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ rake db:migrate
+(in /home/spencer/rails_projects/depot)
+]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ rake db:rollback
+(in /home/spencer/rails_projects/depot)
+]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ clear
+[H[2J]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ ae[K[Krake db:migrate
+(in /home/spencer/rails_projects/depot)
+]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ clear
+[H[2J]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ raked [K[K db:migrate
+(in /home/spencer/rails_projects/depot)
+]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ clear
+[H[2J]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ rake test
+(in /home/spencer/rails_projects/depot)
+Loaded suite /var/lib/gems/1.8/gems/rake-0.8.7/lib/rake/rake_test_loader
+Started
+EEE
+Finished in 0.00636 seconds.
+
+  1) Error:
+test_Product_attributes_must_not_be_empty(ProductTest):
+ActiveRecord::StatementInvalid: SQLite3::SQLException: no such table: products: DELETE FROM "products" WHERE 1=1
+    
+
+  2) Error:
+test_product_is_not_valid_without_a_unique_title(ProductTest):
+ActiveRecord::StatementInvalid: SQLite3::SQLException: no such table: products: DELETE FROM "products" WHERE 1=1
+    
+
+  3) Error:
+test_product_price_must_be_positive(ProductTest):
+ActiveRecord::StatementInvalid: SQLite3::SQLException: no such table: products: DELETE FROM "products" WHERE 1=1
+    
+
+3 tests, 0 assertions, 0 failures, 3 errors
+Loaded suite /var/lib/gems/1.8/gems/rake-0.8.7/lib/rake/rake_test_loader
+Started
+EEEEEEEE
+Finished in 0.012867 seconds.
+
+  1) Error:
+test_should_create_product(ProductsControllerTest):
+ActiveRecord::StatementInvalid: SQLite3::SQLException: no such table: products: DELETE FROM "products" WHERE 1=1
+    
+
+  2) Error:
+test_should_destroy_product(ProductsControllerTest):
+ActiveRecord::StatementInvalid: SQLite3::SQLException: no such table: products: DELETE FROM "products" WHERE 1=1
+    
+
+  3) Error:
+test_should_get_edit(ProductsControllerTest):
+ActiveRecord::StatementInvalid: SQLite3::SQLException: no such table: products: DELETE FROM "products" WHERE 1=1
+    
+
+  4) Error:
+test_should_get_index(ProductsControllerTest):
+ActiveRecord::StatementInvalid: SQLite3::SQLException: no such table: products: DELETE FROM "products" WHERE 1=1
+    
+
+  5) Error:
+test_should_get_new(ProductsControllerTest):
+ActiveRecord::StatementInvalid: SQLite3::SQLException: no such table: products: DELETE FROM "products" WHERE 1=1
+    
+
+  6) Error:
+test_should_show_product(ProductsControllerTest):
+ActiveRecord::StatementInvalid: SQLite3::SQLException: no such table: products: DELETE FROM "products" WHERE 1=1
+    
+
+  7) Error:
+test_should_update_product(ProductsControllerTest):
+ActiveRecord::StatementInvalid: SQLite3::SQLException: no such table: products: DELETE FROM "products" WHERE 1=1
+    
+
+  8) Error:
+test_should_get_index(StoreControllerTest):
+ActiveRecord::StatementInvalid: SQLite3::SQLException: no such table: products: DELETE FROM "products" WHERE 1=1
+    
+
+8 tests, 0 assertions, 0 failures, 8 errors
+Errors running test:units, test:functionals!
+]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ clear
+[H[2J]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ rails ger[Knerate migration products
+[1m[37m      invoke[0m  active_record
+[1m[32m      create[0m    db/migrate/20110728014402_products.rb
+]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ clear
+[H[2J]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ rake db:migrate
+(in /home/spencer/rails_projects/depot)
+==  Products: migrating =======================================================
+-- create_table(:products)
+   -> 0.0012s
+==  Products: migrated (0.0012s) ==============================================
+
+]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ rake test
+(in /home/spencer/rails_projects/depot)
+Loaded suite /var/lib/gems/1.8/gems/rake-0.8.7/lib/rake/rake_test_loader
+Started
+...
+Finished in 0.178424 seconds.
+
+3 tests, 10 assertions, 0 failures, 0 errors
+Loaded suite /var/lib/gems/1.8/gems/rake-0.8.7/lib/rake/rake_test_loader
+Started
+........
+Finished in 0.265814 seconds.
+
+8 tests, 11 assertions, 0 failures, 0 errors
+]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ clear
+[H[2J]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ rake db:seed
+(in /home/spencer/rails_projects/depot)
+]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ rails paper[K[K[K[K[Kgenerate papercliip
+Could not find generator papercliip.
+]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ rails generate papercliip[1Pp
+Usage:
+  rails generate paperclip NAME attachment_one attachment_two attachment_three ... [options]
+
+Runtime options:
+  -s, [--skip]     # Skip files that already exist
+  -p, [--pretend]  # Run but do not make any changes
+  -q, [--quiet]    # Supress status output
+  -f, [--force]    # Overwrite files that already exist
+
+Create a migration to add paperclip-specific fields to your model. The NAME argument is the name of your model, and the following arguments are the name of the attachments
+]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ rails genear[K[K[K[K[K[K[K[K[K[K[K[Kclear
+[H[2J]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ ral[Kils generate papercli[[Kop[K[Kp Product image
+[1m[32m      create[0m  db/migrate/20110728014908_add_attachment_image_to_product.rb
+]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ rake db:migrate
+(in /home/spencer/rails_projects/depot)
+==  AddAttachmentImageToProduct: migrating ====================================
+-- add_column(:products, :image_file_name, :string)
+   -> 0.0006s
+-- add_column(:products, :image_content_type, :string)
+   -> 0.0004s
+-- add_column(:products, :image_file_size, :integer)
+   -> 0.0004s
+-- add_column(:products, :image_updated_at, :datetime)
+   -> 0.0003s
+==  AddAttachmentImageToProduct: migrated (0.0019s) ===========================
+
+]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ clear
+[H[2J]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ rake[K[K[K[Kgedit app/views/r[Kproducts/f[K_form.html.erb
+]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ sudo rake gems:install
+[sudo] password for spencer: 
+sudo: rake: command not found
+]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ clear
+[H[2J]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ ra[K[Ksudo rake gem:insta;;[K[Kll
+sudo: rake: command not found
+]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ clear
+[H[2J]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ rak[K[K[Ksudo rta[K[Kaked [K[K db:install[K[K[K[K[K[K[K[K[K[K[K gems:install
+sudo: rake: command not found
+]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ clear
+[H[2J]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ a[Ksudo rake gem install
+sudo: rake: command not found
+]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ clear
+[H[2J]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ gem insl[Ktall
+ERROR:  While executing gem ... (Gem::CommandLineError)
+    Please specify at least one gem name (e.g. gem build GEMNAME)
+]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ gem[K[K[Kbundle install
+Using rake (0.8.7) 
+Using abstract (1.0.0) 
+Using activesupport (3.0.7) 
+Using builder (2.1.2) 
+Using i18n (0.5.0) 
+Using activemodel (3.0.7) 
+Using erubis (2.6.6) 
+Using rack (1.2.2) 
+Using rack-mount (0.6.14) 
+Using rack-test (0.5.7) 
+Using tzinfo (0.3.27) 
+Using actionpack (3.0.7) 
+Using mime-types (1.16) 
+Using polyglot (0.3.1) 
+Using treetop (1.4.9) 
+Using mail (2.2.19) 
+Using actionmailer (3.0.7) 
+Using arel (2.0.9) 
+Using activerecord (3.0.7) 
+Using activeresource (3.0.7) 
+Using bundler (1.0.12) 
+Using cocaine (0.1.0) 
+Using paperclip (2.3.15) 
+Using thor (0.14.6) 
+Using railties (3.0.7) 
+Using rails (3.0.7) 
+Using sqlite3 (1.3.3) 
+[32mYour bundle is complete! Use `bundle show [gemname]` to see where a bundled gem is installed.[0m
+]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ gedi[K[K[K[Kbundle install[3Pgem[C[C[C[C[C[C[C[C[6Pclearsudo rake gem installclear[Ksudo rake gems:installclear[Ksudo rake gem:install[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kgedit app/views/products/_form.html.erb
+']0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ 'clear
+> clear
+> 
+> 
+> 
+> ;
+> ;
+> '
+]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ clear
+[H[2J]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ ls ved[Kndoe[Kr/plugins
+]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ clear
+[H[2J]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ ls[K[Kclear
+[H[2J]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ clear
+[H[2J]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ rake db:reset
+(in /home/spencer/rails_projects/depot)
+db/test.sqlite3 already exists
+-- create_table("products", {:force=>true})
+   -> 0.8208s
+-- initialize_schema_migrations_table()
+   -> 0.2015s
+-- assume_migrated_upto_version(20110728014908, "db/migrate")
+   -> 0.1727s
+]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ clear
+[H[2J]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ rake db:seed
+(in /home/spencer/rails_projects/depot)
+]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ gei[Kdit app/views/products/show.html.erb
+]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ clear
+[H[2J]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ rake db:seed
+(in /home/spencer/rails_projects/depot)
+]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ l[Kclearrake db:seed[7Pclear
+[H[2J]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ cle[K[K[Krake db:seed
+(in /home/spencer/rails_projects/depot)
+]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ clear
+[H[2J]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ rake test
+(in /home/spencer/rails_projects/depot)
+Loaded suite /var/lib/gems/1.8/gems/rake-0.8.7/lib/rake/rake_test_loader
+Started
+...
+Finished in 0.200486 seconds.
+
+3 tests, 10 assertions, 0 failures, 0 errors
+Loaded suite /var/lib/gems/1.8/gems/rake-0.8.7/lib/rake/rake_test_loader
+Started
+........
+Finished in 0.278993 seconds.
+
+8 tests, 11 assertions, 0 failures, 0 errors
+]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ rake db:reset
+(in /home/spencer/rails_projects/depot)
+db/test.sqlite3 already exists
+-- create_table("products", {:force=>true})
+   -> 0.1902s
+-- initialize_schema_migrations_table()
+   -> 0.2461s
+-- assume_migrated_upto_version(20110728014908, "db/migrate")
+   -> 0.2107s
+]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ clear
+[H[2J]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ rake dv:[K[Kb?:[K[K;[K"[K:seed
+(in /home/spencer/rails_projects/depot)
+]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ gedit public.[K/html[K[K[K[Kstylesheets/depot.css
+]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ clear
+[H[2J]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ rake db:reset
+(in /home/spencer/rails_projects/depot)
+db/test.sqlite3 already exists
+-- create_table("products", {:force=>true})
+   -> 0.1440s
+-- initialize_schema_migrations_table()
+   -> 0.2462s
+-- assume_migrated_upto_version(20110728014908, "db/migrate")
+   -> 0.4064s
+cl]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ clear
+[H[2J]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ rake db:seed
+(in /home/spencer/rails_projects/depot)
+]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ gedit Gemfile
+]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ bundle install
+Using rake (0.8.7) 
+Using abstract (1.0.0) 
+Using activesupport (3.0.7) 
+Using builder (2.1.2) 
+Using i18n (0.5.0) 
+Using activemodel (3.0.7) 
+Using erubis (2.6.6) 
+Using rack (1.2.2) 
+Using rack-mount (0.6.14) 
+Using rack-test (0.5.7) 
+Using tzinfo (0.3.27) 
+Using actionpack (3.0.7) 
+Using mime-types (1.16) 
+Using polyglot (0.3.1) 
+Using treetop (1.4.9) 
+Using mail (2.2.19) 
+Using actionmailer (3.0.7) 
+Using arel (2.0.9) 
+Using activerecord (3.0.7) 
+Using activeresource (3.0.7) 
+Using bundler (1.0.12) 
+Using cocaine (0.1.0) 
+Using thor (0.14.6) 
+Using railties (3.0.7) 
+Using jquery-rails (1.0.12) 
+Using paperclip (2.3.15) 
+Using rails (3.0.7) 
+Using sqlite3 (1.3.3) 
+[32mYour bundle is complete! Use `bundle show [gemname]` to see where a bundled gem is installed.[0m
+]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ rails generate jquery:install
+[1m[32m      remove[0m  public/javascripts/prototype.js
+[1m[32m      remove[0m  public/javascripts/effects.js
+[1m[32m      remove[0m  public/javascripts/dragdrop.js
+[1m[32m      remove[0m  public/javascripts/controls.js
+[1m[32m     copying[0m  jQuery (1.6.1)
+[1m[32m      create[0m  public/javascripts/jquery.js
+[1m[32m      create[0m  public/javascripts/jquery.min.js
+[1m[32m     copying[0m  jQuery UJS adapter (0e7426)
+[1m[32m      remove[0m  public/javascripts/rails.js
+[1m[32m      create[0m  public/javascripts/jquery_ujs.js
+]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ 
+]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ clear
+[H[2J]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ r[Kgedit app.[K//[Kviews/products/[K[Ks/[K[K[K[K[K[K[K[K[K[K/store/index.html.erb
+]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ geid[K[Kdit app/views/store/index.html.erb[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kproducts/show.h[K[K[K[K[K[Kinde.[Kx.html.erb
+]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ clear
+[H[2J]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ raked te[K[K[K[K test
+(in /home/spencer/rails_projects/depot)
+Loaded suite /var/lib/gems/1.8/gems/rake-0.8.7/lib/rake/rake_test_loader
+Started
+...
+Finished in 0.210801 seconds.
+
+3 tests, 10 assertions, 0 failures, 0 errors
+Loaded suite /var/lib/gems/1.8/gems/rake-0.8.7/lib/rake/rake_test_loader
+Started
+........
+Finished in 0.280151 seconds.
+
+8 tests, 11 assertions, 0 failures, 0 errors
+]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ clear
+[H[2J]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ raked ddb[K[Kb:reset
+No command 'raked' found, did you mean:
+ Command 'rake' from package 'rake' (universe)
+raked: command not found
+]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ clear
+[H[2J]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ rake de[Kb:reset
+(in /home/spencer/rails_projects/depot)
+db/test.sqlite3 already exists
+-- create_table("products", {:force=>true})
+   -> 0.1502s
+-- initialize_schema_migrations_table()
+   -> 0.2128s
+-- assume_migrated_upto_version(20110728014908, "db/migrate")
+   -> 0.1649s
+]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ clear
+[H[2J]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ rake db:seed
+(in /home/spencer/rails_projects/depot)
+]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ gedit public/stylehseet[K[K[K[K[Kst[Kht[Ket[Kets/de[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kublic/stylesheets/depto[K[Kot.css
+]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ gedit app./[K[K/me[Kodle[K[Kels/product.rb
+]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ gedit app/controllers/products_controllerr.[K[K.rb
+]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ gedit app/views/conto[Krollers/[K/[K[K[K[K[K[K[K[K[K[K[K[Kproducts/show.th[K[Khtml.erb
+]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ clear
+[H[2J]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ rake db:resety[K
+(in /home/spencer/rails_projects/depot)
+db/test.sqlite3 already exists
+-- create_table("products", {:force=>true})
+   -> 0.1476s
+-- initialize_schema_migrations_table()
+   -> 0.2128s
+-- assume_migrated_upto_version(20110728014908, "db/migrate")
+   -> 0.1813s
+]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ clear
+[H[2J]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ rake db:seed
+(in /home/spencer/rails_projects/depot)
+]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ clear
+[H[2J]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ rake db:reset
+(in /home/spencer/rails_projects/depot)
+db/test.sqlite3 already exists
+-- create_table("products", {:force=>true})
+   -> 0.1656s
+-- initialize_schema_migrations_table()
+   -> 0.2351s
+-- assume_migrated_upto_version(20110728014908, "db/migrate")
+   -> 0.1932s
+clea]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ clear
+[H[2J]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ rake db:seed
+(in /home/spencer/rails_projects/depot)
+]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ clear
+[H[2J]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ rake db:reset
+(in /home/spencer/rails_projects/depot)
+db/test.sqlite3 already exists
+-- create_table("products", {:force=>true})
+   -> 0.2126s
+-- initialize_schema_migrations_table()
+   -> 0.2686s
+-- assume_migrated_upto_version(20110728014908, "db/migrate")
+   -> 0.2027s
+]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ clear
+[H[2J]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ rake db:seed
+(in /home/spencer/rails_projects/depot)
+]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ clear
+[H[2J]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ rake db:[K[K[K[K test
+(in /home/spencer/rails_projects/depot)
+Loaded suite /var/lib/gems/1.8/gems/rake-0.8.7/lib/rake/rake_test_loader
+Started
+.F.
+Finished in 0.221407 seconds.
+
+  1) Failure:
+test_product_is_not_valid_without_a_unique_title(ProductTest) [/test/unit/product_test.rb:40]:
+<false> is not true.
+
+3 tests, 9 assertions, 1 failures, 0 errors
+Loaded suite /var/lib/gems/1.8/gems/rake-0.8.7/lib/rake/rake_test_loader
+Started
+........
+Finished in 0.271197 seconds.
+
+8 tests, 11 assertions, 0 failures, 0 errors
+Errors running test:units!
+]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ clear
+[H[2J]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ clear
+[H[2J]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ al[K[Krake db:sse[Ke[Kee[K[Ke[K[Keed[K[K[K[K[K[K[K[K[K[K[K[Krake db:reste[K[Ket
+(in /home/spencer/rails_projects/depot)
+db/test.sqlite3 already exists
+-- create_table("products", {:force=>true})
+   -> 0.1397s
+-- initialize_schema_migrations_table()
+   -> 0.1906s
+-- assume_migrated_upto_version(20110728014908, "db/migrate")
+   -> 0.1713s
+]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ clear
+[H[2J]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ rake db:seed
+(in /home/spencer/rails_projects/depot)
+]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ gedit app/v[Kviews/[rp[K[K[Kproducts./[K[K/index.html.erb
+]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ gedit app/controllers/productcle[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kogedit[K[K[K[K[K[Kgedit app/[K[K[K[Kcong[Kfig/routes.c[Krb
+]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ gedit app/.[K[K[K[K[Kapp/views/layouts./[K[K/jcrop[K[K[K[K[Kappl;[Kication.html.erb
+]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ gedit app/views/products/show.[K[K[K[K[Kshow.html[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kmodels/appl;[Kication.html.erb[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kproduct.re[Kb
+]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ clear[K[K[K[K[Kclear
+[H[2J]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ '[Kclear
+[H[2J]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ rae[K[K[Kreak e[K[K[K[Kke d[K[K[K[K[K[Krake db:reset
+(in /home/spencer/rails_projects/depot)
+db/test.sqlite3 already exists
+-- create_table("products", {:force=>true})
+   -> 0.1468s
+-- initialize_schema_migrations_table()
+   -> 0.2234s
+-- assume_migrated_upto_version(20110728014908, "db/migrate")
+   -> 0.1950s
+]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ clear
+[H[2J]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ rake db:seed
+(in /home/spencer/rails_projects/depot)
+]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ gei[Kdit app/views/products/show[K[K[K[Kshow.t[Khtml.erb
+]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ geidt app/modle.s[K[K[K[Ke.s[K[Kls.[K/public/.[K[K[K[K[K[K[K[K[K/prou[Kducts[K./r[K[Kb[Krb
+No command 'geidt' found, did you mean:
+ Command 'gedit' from package 'gedit' (main)
+geidt: command not found
+]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ geidt app/models/product.rb[1P[1P[1P[1@e[1@d[1@i
+]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ geditgei[Kd[K[K[K app/views/products/show.html.erb
+]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ geid[K[Kdit ge[K[KGemfile
+]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ gedit app/models/c[Kproduct.rb
+]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ geid[K[Kdit app/sho[K[K[Kviews/product/s[K[Ks/show.html.erb
+]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ which convert
+/usr/bin/convert
+]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ which
+]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ which convert
+/usr/bin/convert
+]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ [K]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ [K]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ gedit app/views.[K/products/cor[K[Krop.html.erb
+]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ gedit app/[K[K[K[K[K app/[K[K[K[Kdb/migrationg[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Krm app/views/product.s[K[Ks.[K/crop.htmle[K,e[K[K.erb
+]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ clear
+[H[2J]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ clearrm app/views/products/crop.html.erb[3@gedit[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ rm lib/paperclip_processors[C[C[C lib/paperclip_processors- lib/paperclip_processorsr lib/paperclip_processors
+]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ clear
+[H[2J]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ clear
+[H[2J]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ rake db:rollback
+rake aborted!
+You have already activated rake 0.9.2, but your Gemfile requires rake 0.8.7. Consider using bundle exec.
+
+(See full trace by running task with --trace)
+]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ clear
+[H[2J]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ rake db:rollback
+rake aborted!
+You have already activated rake 0.9.2, but your Gemfile requires rake 0.8.7. Consider using bundle exec.
+
+(See full trace by running task with --trace)
+]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ clear
+[H[2J]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ clear
+[H[2J]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ ra[K[Kclear
+[H[2J]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ rake db:mir[Kgrate
+rake aborted!
+You have already activated rake 0.9.2, but your Gemfile requires rake 0.8.7. Consider using bundle exec.
+
+(See full trace by running task with --trace)
+]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ clear
+[H[2J]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ rake[K[K[K[Kbundle install
+Using rake (0.8.7) 
+Using abstract (1.0.0) 
+Using activesupport (3.0.7) 
+Using builder (2.1.2) 
+Using i18n (0.5.0) 
+Using activemodel (3.0.7) 
+Using erubis (2.6.6) 
+Using rack (1.2.2) 
+Using rack-mount (0.6.14) 
+Using rack-test (0.5.7) 
+Using tzinfo (0.3.27) 
+Using actionpack (3.0.7) 
+Using mime-types (1.16) 
+Using polyglot (0.3.1) 
+Using treetop (1.4.9) 
+Using mail (2.2.19) 
+Using actionmailer (3.0.7) 
+Using arel (2.0.9) 
+Using activerecord (3.0.7) 
+Using activeresource (3.0.7) 
+Using bundler (1.0.12) 
+Using thor (0.14.6) 
+Using railties (3.0.7) 
+Using jquery-rails (1.0.12) 
+Using rails (3.0.7) 
+Using sqlite3 (1.3.3) 
+[32mYour bundle is complete! Use `bundle show [gemname]` to see where a bundled gem is installed.[0m
+]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ clear
+[H[2J]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ rake db:migrate
+rake aborted!
+You have already activated rake 0.9.2, but your Gemfile requires rake 0.8.7. Consider using bundle exec.
+
+(See full trace by running task with --trace)
+]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ clear
+[H[2J]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ rake db:migrate
+rake aborted!
+You have already activated rake 0.9.2, but your Gemfile requires rake 0.8.7. Consider using bundle exec.
+
+(See full trace by running task with --trace)
+]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ bundle exec rake cron
+(in /home/spencer/rails_projects/depot)
+rake aborted!
+Don't know how to build task 'cron'
+
+(See full trace by running task with --trace)
+]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ clear
+[H[2J]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ rake db:migrate
+rake aborted!
+You have already activated rake 0.9.2, but your Gemfile requires rake 0.8.7. Consider using bundle exec.
+
+(See full trace by running task with --trace)
+]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ clear
+[H[2J]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ bundle install
+Using rake (0.8.7) 
+Using abstract (1.0.0) 
+Using activesupport (3.0.7) 
+Using builder (2.1.2) 
+Using i18n (0.5.0) 
+Using activemodel (3.0.7) 
+Using erubis (2.6.6) 
+Using rack (1.2.2) 
+Using rack-mount (0.6.14) 
+Using rack-test (0.5.7) 
+Using tzinfo (0.3.27) 
+Using actionpack (3.0.7) 
+Using mime-types (1.16) 
+Using polyglot (0.3.1) 
+Using treetop (1.4.9) 
+Using mail (2.2.19) 
+Using actionmailer (3.0.7) 
+Using arel (2.0.9) 
+Using activerecord (3.0.7) 
+Using activeresource (3.0.7) 
+Using bundler (1.0.12) 
+Using thor (0.14.6) 
+Using railties (3.0.7) 
+Using jquery-rails (1.0.12) 
+Using rails (3.0.7) 
+Using sqlite3 (1.3.3) 
+[32mYour bundle is complete! Use `bundle show [gemname]` to see where a bundled gem is installed.[0m
+]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ gem update-[Ks[K-system
+ERROR:  While executing gem ... (RuntimeError)
+    Unknown command update-system
+]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ gem update
+Updating installed gems
+Updating actionmailer
+ERROR:  While executing gem ... (Gem::FilePermissionError)
+    You don't have write permissions into the /var/lib/gems/1.8 directory.
+]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ sudo gem update
+[sudo] password for spencer: 
+Updating installed gems
+Updating actionmailer
+Successfully installed activesupport-3.0.9
+Successfully installed activemodel-3.0.9
+Successfully installed actionpack-3.0.9
+Successfully installed actionmailer-3.0.9
+Updating activerecord
+Successfully installed activerecord-3.0.9
+Updating activeresource
+Successfully installed activeresource-3.0.9
+Updating arel
+Successfully installed arel-2.1.4
+Updating bundler
+Successfully installed bundler-1.0.15
+Updating configuration
+Successfully installed configuration-1.3.1
+Updating heroku
+Successfully installed heroku-2.4.0
+Successfully installed addressable-2.2.6
+Updating i18n
+Successfully installed i18n-0.6.0
+Updating launchy
+Successfully installed launchy-2.0.5
+Updating rack
+Successfully installed rack-1.3.2
+Updating rack-mount
+Successfully installed rack-mount-0.8.1
+Updating rack-test
+Successfully installed rack-test-0.6.1
+Updating rails
+Depending on your version of ruby, you may need to install ruby rdoc/ri data:
+
+<= 1.8.6 : unsupported
+ = 1.8.7 : gem install rdoc-data; rdoc-data --install
+ = 1.9.1 : gem install rdoc-data; rdoc-data --install
+>= 1.9.2 : nothing to do! Yay!
+Successfully installed rdoc-3.9.1
+Successfully installed railties-3.0.9
+Successfully installed rails-3.0.9
+Updating rest-client
+Successfully installed rest-client-1.6.3
+Updating term-ansicolor
+Successfully installed term-ansicolor-1.0.6
+Gems updated: activesupport, activemodel, actionpack, actionmailer, activerecord, activeresource, arel, bundler, configuration, heroku, addressable, i18n, launchy, rack, rack-mount, rack-test, rdoc, railties, rails, rest-client, term-ansicolor
+Installing ri documentation for activesupport-3.0.9...
+Installing ri documentation for activemodel-3.0.9...
+Installing ri documentation for actionpack-3.0.9...
+Installing ri documentation for actionmailer-3.0.9...
+Installing ri documentation for activerecord-3.0.9...
+Installing ri documentation for activeresource-3.0.9...
+Installing ri documentation for arel-2.1.4...
+Installing ri documentation for bundler-1.0.15...
+Installing ri documentation for configuration-1.3.1...
+Installing ri documentation for heroku-2.4.0...
+Installing ri documentation for addressable-2.2.6...
+Installing ri documentation for i18n-0.6.0...
+Installing ri documentation for launchy-2.0.5...
+Installing ri documentation for rack-1.3.2...
+Installing ri documentation for rack-mount-0.8.1...
+Installing ri documentation for rack-test-0.6.1...
+Installing ri documentation for rdoc-3.9.1...
+Installing ri documentation for railties-3.0.9...
+Installing ri documentation for rails-3.0.9...
+file 'lib' not found
+Installing ri documentation for rest-client-1.6.3...
+Installing ri documentation for term-ansicolor-1.0.6...
+Installing RDoc documentation for activesupport-3.0.9...
+Installing RDoc documentation for activemodel-3.0.9...
+Installing RDoc documentation for actionpack-3.0.9...
+Installing RDoc documentation for actionmailer-3.0.9...
+Installing RDoc documentation for activerecord-3.0.9...
+Installing RDoc documentation for activeresource-3.0.9...
+Installing RDoc documentation for arel-2.1.4...
+Installing RDoc documentation for bundler-1.0.15...
+Installing RDoc documentation for configuration-1.3.1...
+Installing RDoc documentation for heroku-2.4.0...
+Installing RDoc documentation for addressable-2.2.6...
+Installing RDoc documentation for i18n-0.6.0...
+Installing RDoc documentation for launchy-2.0.5...
+Installing RDoc documentation for rack-1.3.2...
+Installing RDoc documentation for rack-mount-0.8.1...
+Installing RDoc documentation for rack-test-0.6.1...
+Installing RDoc documentation for rdoc-3.9.1...
+Installing RDoc documentation for railties-3.0.9...
+Installing RDoc documentation for rails-3.0.9...
+file 'lib' not found
+Installing RDoc documentation for rest-client-1.6.3...
+Installing RDoc documentation for term-ansicolor-1.0.6...
+]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ clear
+[H[2J]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ rake db:migrate
+rake aborted!
+You have already activated rake 0.9.2, but your Gemfile requires rake 0.8.7. Consider using bundle exec.
+
+(See full trace by running task with --trace)
+]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ l[Kbundle exec
+/var/lib/gems/1.8/gems/bundler-1.0.15/lib/bundler/cli.rb:346:in `exec': wrong number of arguments (ArgumentError)
+	from /var/lib/gems/1.8/gems/bundler-1.0.15/lib/bundler/cli.rb:346:in `exec'
+	from /var/lib/gems/1.8/gems/bundler-1.0.15/lib/bundler/vendor/thor/task.rb:22:in `send'
+	from /var/lib/gems/1.8/gems/bundler-1.0.15/lib/bundler/vendor/thor/task.rb:22:in `run'
+	from /var/lib/gems/1.8/gems/bundler-1.0.15/lib/bundler/vendor/thor/invocation.rb:118:in `invoke_task'
+	from /var/lib/gems/1.8/gems/bundler-1.0.15/lib/bundler/vendor/thor.rb:246:in `dispatch'
+	from /var/lib/gems/1.8/gems/bundler-1.0.15/lib/bundler/vendor/thor/base.rb:389:in `start'
+	from /var/lib/gems/1.8/gems/bundler-1.0.15/bin/bundle:13
+	from /var/lib/gems/1.8/bin/bundle:19:in `load'
+	from /var/lib/gems/1.8/bin/bundle:19
+]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ clkear
+No command 'clkear' found, did you mean:
+ Command 'clear' from package 'ncurses-bin' (main)
+clkear: command not found
+]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ clkear
+No command 'clkear' found, did you mean:
+ Command 'clear' from package 'ncurses-bin' (main)
+clkear: command not found
+]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ clear
+[H[2J]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ gem uninstall rake
+
+Select gem to uninstall:
+ 1. rake-0.8.7
+ 2. rake-0.9.2
+ 3. All versions
+> 2
+
+You have requested to uninstall the gem:
+	rake-0.9.2
+launchy-2.0.5 depends on [rake (~> 0.9.2)]
+treetop-1.4.10 depends on [rake (>= 0)]
+railties-3.0.7 depends on [rake (>= 0.8.7)]
+railties-3.0.9 depends on [rake (>= 0.8.7)]
+addressable-2.2.6 depends on [rake (>= 0.7.3)]
+rack-1.2.2 depends on [rake (>= 0)]
+rack-1.3.2 depends on [rake (>= 0)]
+rack-1.2.3 depends on [rake (>= 0)]
+launchy-0.4.0 depends on [rake (>= 0.8.1)]
+thor-0.14.6 depends on [rake (>= 0.8)]
+If you remove this gems, one or more dependencies will not be met.
+Continue with Uninstall? [Yn]  y
+ERROR:  While executing gem ... (Gem::FilePermissionError)
+    You don't have write permissions into the /var/lib/gems/1.8 directory.
+]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ sudo gem uninstall
+ERROR:  While executing gem ... (Gem::CommandLineError)
+    Please specify at least one gem name (e.g. gem build GEMNAME)
+]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ clear
+[H[2J]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ sudo gem uninstall rake
+
+Select gem to uninstall:
+ 1. rake-0.8.7
+ 2. rake-0.9.2
+ 3. All versions
+> 2
+
+You have requested to uninstall the gem:
+	rake-0.9.2
+launchy-2.0.5 depends on [rake (~> 0.9.2)]
+treetop-1.4.10 depends on [rake (>= 0)]
+railties-3.0.7 depends on [rake (>= 0.8.7)]
+railties-3.0.9 depends on [rake (>= 0.8.7)]
+addressable-2.2.6 depends on [rake (>= 0.7.3)]
+rack-1.2.2 depends on [rake (>= 0)]
+rack-1.3.2 depends on [rake (>= 0)]
+rack-1.2.3 depends on [rake (>= 0)]
+launchy-0.4.0 depends on [rake (>= 0.8.1)]
+thor-0.14.6 depends on [rake (>= 0.8)]
+If you remove this gems, one or more dependencies will not be met.
+Continue with Uninstall? [Yn]  y
+Successfully uninstalled rake-0.9.2
+]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ clear
+[H[2J]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ rake db:migrate
+(in /home/spencer/rails_projects/depot)
+]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ clear
+[H[2J]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ rake d[Kdb:migrate
+(in /home/spencer/rails_projects/depot)
+]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ clear
+[H[2J]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ rails generate migration [K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kclea
+No command 'clea' found, did you mean:
+ Command 'clear' from package 'ncurses-bin' (main)
+ Command 'clex' from package 'clex' (universe)
+clea: command not found
+r]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ rcl[K[K[Kclear
+[H[2J]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ rake d[Kdb:migrate
+(in /home/spencer/rails_projects/depot)
+]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ rails generate migrateion
+Could not find generator migrateion.
+]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ clear
+[H[2J]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ rails generate migration
+Usage:
+  rails generate migration NAME [field:type field:type] [options]
+
+Options:
+  -o, --orm=NAME  # Orm to be invoked
+                  # Default: active_record
+
+Runtime options:
+  -s, [--skip]     # Skip files that already exist
+  -p, [--pretend]  # Run but do not make any changes
+  -f, [--force]    # Overwrite files that already exist
+  -q, [--quiet]    # Supress status output
+
+Description:
+    Create rails files for migration generator.
+]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ rails gem[Knerate migration pro[Koducts
+[1m[37m      invoke[0m  active_record
+[1m[32m      create[0m    db/migrate/20110804030454_products.rb
+]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ clea
+rNo command 'clea' found, did you mean:
+ Command 'clear' from package 'ncurses-bin' (main)
+ Command 'clex' from package 'clex' (universe)
+clea: command not found
+r]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ rra[K[K[Kclear
+[H[2J]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ rake db:migrate
+(in /home/spencer/rails_projects/depot)
+==  Products: migrating =======================================================
+-- create_table(:products)
+   -> 0.0012s
+==  Products: migrated (0.0013s) ==============================================
+
+]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ ged[K[K[Kgedit app/views/products/_form.html.erb
+]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ ce[Klear
+[H[2J]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ bundle install
+Fetching source index for http://rubygems.org/
+Using rake (0.8.7) 
+Using abstract (1.0.0) 
+Using activesupport (3.0.7) 
+Using builder (2.1.2) 
+Using i18n (0.5.0) 
+Using activemodel (3.0.7) 
+Using erubis (2.6.6) 
+Using rack (1.2.2) 
+Using rack-mount (0.6.14) 
+Using rack-test (0.5.7) 
+Using tzinfo (0.3.27) 
+Using actionpack (3.0.7) 
+Using mime-types (1.16) 
+Using polyglot (0.3.1) 
+Using treetop (1.4.9) 
+Using mail (2.2.19) 
+Using actionmailer (3.0.7) 
+Using arel (2.0.9) 
+Using activerecord (3.0.7) 
+Using activeresource (3.0.7) 
+Using bundler (1.0.15) 
+Installing carrierwave (0.5.6) 
+Using thor (0.14.6) 
+Using railties (3.0.7) 
+Using jquery-rails (1.0.12) 
+Using rails (3.0.7) 
+Using sqlite3 (1.3.3) 
+[32mYour bundle is complete! Use `bundle show [gemname]` to see where a bundled gem is installed.[0m
+]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ gem list
+
+*** LOCAL GEMS ***
+
+abstract (1.0.0)
+actionmailer (3.0.9, 3.0.7)
+actionpack (3.0.9, 3.0.7)
+activemodel (3.0.9, 3.0.7)
+activerecord (3.0.9, 3.0.7)
+activeresource (3.0.9, 3.0.7)
+activesupport (3.0.9, 3.0.7)
+addressable (2.2.6)
+arel (2.1.4, 2.1.0, 2.0.10, 2.0.9)
+builder (3.0.0, 2.1.2)
+bundler (1.0.15, 1.0.12)
+carrierwave (0.5.6)
+cocaine (0.1.0)
+configuration (1.3.1, 1.2.0)
+erubis (2.7.0, 2.6.6)
+heroku (2.4.0, 2.0.4)
+i18n (0.6.0, 0.5.0)
+jquery-rails (1.0.12)
+launchy (2.0.5, 0.4.0)
+mail (2.3.0, 2.2.19)
+mime-types (1.16)
+paperclip (2.3.16, 2.3.15)
+polyglot (0.3.2, 0.3.1)
+rack (1.3.2, 1.2.3, 1.2.2)
+rack-mount (0.8.1, 0.7.2, 0.6.14)
+rack-test (0.6.1, 0.5.7)
+rails (3.0.9, 3.0.7)
+railties (3.0.9, 3.0.7)
+rake (0.8.7)
+rdoc (3.9.1)
+rest-client (1.6.3, 1.6.1)
+sqlite3 (1.3.4, 1.3.3)
+sqlite3-ruby (1.3.3)
+term-ansicolor (1.0.6, 1.0.5)
+thor (0.14.6)
+treetop (1.4.10, 1.4.9)
+tzinfo (0.3.29, 0.3.27)
+zero-clipboard-rails (1.0.0)
+]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ clear
+[H[2J]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ rails uppl[K[Kloader[C[C[C[C[C[K[K[K[K[K[K[K[K[K g uploader image
+[1m[32m      create[0m  app/uploaders/image_uploader.rb
+]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ gedit app/uploaders/image_uploader
+]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ rails g migration add_image_to_products image:string
+[1m[37m      invoke[0m  active_record
+[1m[32m      create[0m    db/migrate/20110804031940_add_image_to_products.rb
+]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ clear
+[H[2J]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ rake db:migrate
+(in /home/spencer/rails_projects/depot)
+==  AddImageToProducts: migrating =============================================
+-- add_column(:products, :image, :string)
+   -> 0.0006s
+==  AddImageToProducts: migrated (0.0007s) ====================================
+
+]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ f[Kgedut aoo[K=[K[K[K[K[K[Kit app.[K/modl[Kels/uploa[K[K[K[K[Kproduct.rb
+]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ geid[K[Kdit app/views/products/_form.html.erb
+]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ clear
+[H[2J]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ raked db:mige[Krate
+No command 'raked' found, did you mean:
+ Command 'rake' from package 'rake' (universe)
+raked: command not found
+]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ clea
+rNo command 'clea' found, did you mean:
+ Command 'clear' from package 'ncurses-bin' (main)
+ Command 'clex' from package 'clex' (universe)
+clea: command not found
+]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ ra[K[Kra[K[Kclear ra[K[K[K
+[H[2J]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ rake db:migrate
+(in /home/spencer/rails_projects/depot)
+]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ clear
+[H[2J]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ gedit app/.[K[K/view[K[K[K[Kgedit P[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kgd[Kei[Kdit app/views/products/show[K[K[K[Kindex/[K.html.erb
+]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ gei[Kdit app/views/products/show.html.erb
+]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ gedit app/veiw[K[K[Kiews/s[Kproducts/index.html.erb
+]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ gedit app/views/products/index.html.erb[1P/index.html.erb[1P/index.html.erb[1P/index.html.erb[1P/index.html.erb[1P/index.html.erb[1P/index.html.erb[1P/index.html.erb[1P/index.html.erbs/index.html.erbt/index.html.erbo/index.html.erbr/index.html.erbe/index.html.erb
+]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ gedit app/controllers/products/[K_controller.rb
+]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ gedit app/views/products/crop.html.erb
+]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ gedit app/views/product[K[K[K[K[K[K[Klaytous[K[K[K[Kouts/appi[Klication.html.erb
+]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ gedit app/models/product.rb
+]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ gedit app/views/products/show.html.erb
+]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ clear
+[H[2J]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ rails[K[K[K[K[Kgei[Kdit gemfile[K[K[K[K[K[K[KGemfile
+]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ clear
+[H[2J]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ r[Kbuc[Kdle i[K[K[K[K[Kndle install
+Fetching source index for http://rubygems.org/
+Enter your password to install the bundled RubyGems to your system: 
+Using rake (0.8.7) 
+Using abstract (1.0.0) 
+Using activesupport (3.0.7) 
+Using builder (2.1.2) 
+Using i18n (0.5.0) 
+Using activemodel (3.0.7) 
+Using erubis (2.6.6) 
+Using rack (1.2.2) 
+Using rack-mount (0.6.14) 
+Using rack-test (0.5.7) 
+Using tzinfo (0.3.27) 
+Using actionpack (3.0.7) 
+Using mime-types (1.16) 
+Using polyglot (0.3.1) 
+Using treetop (1.4.9) 
+Using mail (2.2.19) 
+Using actionmailer (3.0.7) 
+Using arel (2.0.9) 
+Using activerecord (3.0.7) 
+Using activeresource (3.0.7) 
+Using bundler (1.0.15) 
+Using carrierwave (0.5.6) 
+Using thor (0.14.6) 
+Using railties (3.0.7) 
+Using jquery-rails (1.0.12) 
+Using rails (3.0.7) 
+Installing rmagick (2.13.1) with native extensions /usr/lib/ruby/1.8/rubygems/installer.rb:483:in `build_extensions': ERROR: Failed to build gem native extension. (Gem::Installer::ExtensionBuildError)
+
+/usr/bin/ruby1.8 extconf.rb 
+checking for Ruby version >= 1.8.5... yes
+checking for gcc... yes
+checking for Magick-config... no
+Can't install RMagick 2.13.1. Can't find Magick-config in /var/lib/gems/1.8/bin:/var/lib/gems/1.8/bin:/home/spencer/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games
+
+*** extconf.rb failed ***
+Could not create Makefile due to some reason, probably lack of
+necessary libraries and/or headers.  Check the mkmf.log file for more
+details.  You may need configuration options.
+
+Provided configuration options:
+	--with-opt-dir
+	--without-opt-dir
+	--with-opt-include
+	--without-opt-include=${opt-dir}/include
+	--with-opt-lib
+	--without-opt-lib=${opt-dir}/lib
+	--with-make-prog
+	--without-make-prog
+	--srcdir=.
+	--curdir
+	--ruby=/usr/bin/ruby1.8
+
+
+Gem files will remain installed in /home/spencer/.bundler/tmp/18111/gems/rmagick-2.13.1 for inspection.
+Results logged to /home/spencer/.bundler/tmp/18111/gems/rmagick-2.13.1/ext/RMagick/gem_make.out
+	from /usr/lib/ruby/1.8/rubygems/installer.rb:446:in `each'
+	from /usr/lib/ruby/1.8/rubygems/installer.rb:446:in `build_extensions'
+	from /usr/lib/ruby/1.8/rubygems/installer.rb:198:in `install'
+	from /var/lib/gems/1.8/gems/bundler-1.0.15/lib/bundler/source.rb:101:in `install'
+	from /var/lib/gems/1.8/gems/bundler-1.0.15/lib/bundler/rubygems_integration.rb:78:in `preserve_paths'
+	from /var/lib/gems/1.8/gems/bundler-1.0.15/lib/bundler/source.rb:91:in `install'
+	from /var/lib/gems/1.8/gems/bundler-1.0.15/lib/bundler/installer.rb:58:in `run'
+	from /var/lib/gems/1.8/gems/bundler-1.0.15/lib/bundler/rubygems_integration.rb:93:in `with_build_args'
+	from /var/lib/gems/1.8/gems/bundler-1.0.15/lib/bundler/installer.rb:57:in `run'
+	from /var/lib/gems/1.8/gems/bundler-1.0.15/lib/bundler/spec_set.rb:12:in `each'
+	from /var/lib/gems/1.8/gems/bundler-1.0.15/lib/bundler/spec_set.rb:12:in `each'
+	from /var/lib/gems/1.8/gems/bundler-1.0.15/lib/bundler/installer.rb:49:in `run'
+	from /var/lib/gems/1.8/gems/bundler-1.0.15/lib/bundler/installer.rb:8:in `install'
+	from /var/lib/gems/1.8/gems/bundler-1.0.15/lib/bundler/cli.rb:222:in `install'
+	from /var/lib/gems/1.8/gems/bundler-1.0.15/lib/bundler/vendor/thor/task.rb:22:in `send'
+	from /var/lib/gems/1.8/gems/bundler-1.0.15/lib/bundler/vendor/thor/task.rb:22:in `run'
+	from /var/lib/gems/1.8/gems/bundler-1.0.15/lib/bundler/vendor/thor/invocation.rb:118:in `invoke_task'
+	from /var/lib/gems/1.8/gems/bundler-1.0.15/lib/bundler/vendor/thor.rb:246:in `dispatch'
+	from /var/lib/gems/1.8/gems/bundler-1.0.15/lib/bundler/vendor/thor/base.rb:389:in `start'
+	from /var/lib/gems/1.8/gems/bundler-1.0.15/bin/bundle:13
+	from /var/lib/gems/1.8/bin/bundle:19:in `load'
+	from /var/lib/gems/1.8/bin/bundle:19
+]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ C[Kclear
+[H[2J]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ clear
+[H[2J]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ bundle install
+Fetching source index for http://rubygems.org/
+Using rake (0.8.7) 
+Using abstract (1.0.0) 
+Using activesupport (3.0.7) 
+Using builder (2.1.2) 
+Using i18n (0.5.0) 
+Using activemodel (3.0.7) 
+Using erubis (2.6.6) 
+Using rack (1.2.2) 
+Using rack-mount (0.6.14) 
+Using rack-test (0.5.7) 
+Using tzinfo (0.3.27) 
+Using actionpack (3.0.7) 
+Using mime-types (1.16) 
+Using polyglot (0.3.1) 
+Using treetop (1.4.9) 
+Using mail (2.2.19) 
+Using actionmailer (3.0.7) 
+Using arel (2.0.9) 
+Using activerecord (3.0.7) 
+Using activeresource (3.0.7) 
+Using bundler (1.0.15) 
+Using carrierwave (0.5.6) 
+Using thor (0.14.6) 
+Using railties (3.0.7) 
+Using jquery-rails (1.0.12) 
+Using rails (3.0.7) 
+Installing rmagick (2.13.1) with native extensions /usr/lib/ruby/1.8/rubygems/installer.rb:483:in `build_extensions': ERROR: Failed to build gem native extension. (Gem::Installer::ExtensionBuildError)
+
+/usr/bin/ruby1.8 extconf.rb 
+checking for Ruby version >= 1.8.5... yes
+checking for gcc... yes
+checking for Magick-config... no
+Can't install RMagick 2.13.1. Can't find Magick-config in /var/lib/gems/1.8/bin:/var/lib/gems/1.8/bin:/home/spencer/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games
+
+*** extconf.rb failed ***
+Could not create Makefile due to some reason, probably lack of
+necessary libraries and/or headers.  Check the mkmf.log file for more
+details.  You may need configuration options.
+
+Provided configuration options:
+	--with-opt-dir
+	--without-opt-dir
+	--with-opt-include
+	--without-opt-include=${opt-dir}/include
+	--with-opt-lib
+	--without-opt-lib=${opt-dir}/lib
+	--with-make-prog
+	--without-make-prog
+	--srcdir=.
+	--curdir
+	--ruby=/usr/bin/ruby1.8
+
+
+Gem files will remain installed in /home/spencer/.bundler/tmp/21543/gems/rmagick-2.13.1 for inspection.
+Results logged to /home/spencer/.bundler/tmp/21543/gems/rmagick-2.13.1/ext/RMagick/gem_make.out
+	from /usr/lib/ruby/1.8/rubygems/installer.rb:446:in `each'
+	from /usr/lib/ruby/1.8/rubygems/installer.rb:446:in `build_extensions'
+	from /usr/lib/ruby/1.8/rubygems/installer.rb:198:in `install'
+	from /var/lib/gems/1.8/gems/bundler-1.0.15/lib/bundler/source.rb:101:in `install'
+	from /var/lib/gems/1.8/gems/bundler-1.0.15/lib/bundler/rubygems_integration.rb:78:in `preserve_paths'
+	from /var/lib/gems/1.8/gems/bundler-1.0.15/lib/bundler/source.rb:91:in `install'
+	from /var/lib/gems/1.8/gems/bundler-1.0.15/lib/bundler/installer.rb:58:in `run'
+	from /var/lib/gems/1.8/gems/bundler-1.0.15/lib/bundler/rubygems_integration.rb:93:in `with_build_args'
+	from /var/lib/gems/1.8/gems/bundler-1.0.15/lib/bundler/installer.rb:57:in `run'
+	from /var/lib/gems/1.8/gems/bundler-1.0.15/lib/bundler/spec_set.rb:12:in `each'
+	from /var/lib/gems/1.8/gems/bundler-1.0.15/lib/bundler/spec_set.rb:12:in `each'
+	from /var/lib/gems/1.8/gems/bundler-1.0.15/lib/bundler/installer.rb:49:in `run'
+	from /var/lib/gems/1.8/gems/bundler-1.0.15/lib/bundler/installer.rb:8:in `install'
+	from /var/lib/gems/1.8/gems/bundler-1.0.15/lib/bundler/cli.rb:222:in `install'
+	from /var/lib/gems/1.8/gems/bundler-1.0.15/lib/bundler/vendor/thor/task.rb:22:in `send'
+	from /var/lib/gems/1.8/gems/bundler-1.0.15/lib/bundler/vendor/thor/task.rb:22:in `run'
+	from /var/lib/gems/1.8/gems/bundler-1.0.15/lib/bundler/vendor/thor/invocation.rb:118:in `invoke_task'
+	from /var/lib/gems/1.8/gems/bundler-1.0.15/lib/bundler/vendor/thor.rb:246:in `dispatch'
+	from /var/lib/gems/1.8/gems/bundler-1.0.15/lib/bundler/vendor/thor/base.rb:389:in `start'
+	from /var/lib/gems/1.8/gems/bundler-1.0.15/bin/bundle:13
+	from /var/lib/gems/1.8/bin/bundle:19:in `load'
+	from /var/lib/gems/1.8/bin/bundle:19
+]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ clear
+[H[2J]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ make
+make: *** No targets specified and no makefile found.  Stop.
+]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ clear
+[H[2J]0;spencer@spencer-DX4300: ~/rails_projects/depotspencer@spencer-DX4300:~/rails_projects/depot$ bundle install
+Fetching source index for http://rubygems.org/
+Enter your password to install the bundled RubyGems to your system: 
+Using rake (0.8.7) 
+Using abstract (1.0.0) 
+Using activesupport (3.0.7) 
+Using builder (2.1.2) 
+Using i18n (0.5.0) 
+Using activemodel (3.0.7) 
+Using erubis (2.6.6) 
+Using rack (1.2.2) 
+Using rack-mount (0.6.14) 
+Using rack-test (0.5.7) 
+Using tzinfo (0.3.27) 
+Using actionpack (3.0.7) 
+Using mime-types (1.16) 
+Using polyglot (0.3.1) 
+Using treetop (1.4.9) 
+Using mail (2.2.19) 
+Using actionmailer (3.0.7) 
+Using arel (2.0.9) 
+Using activerecord (3.0.7) 
+Using activeresource (3.0.7) 
+Using bundler (1.0.15) 
+Using carrierwave (0.5.6) 
+Using thor (0.14.6) 
+Using railties (3.0.7) 
+Using jquery-rails (1.0.12) 
+Using rails (3.0.7) 
+Installing rmagick (2.13.1) with native extensions /usr/lib/ruby/1.8/rubygems/installer.rb:483:in `build_extensions': ERROR: Failed to build gem native extension. (Gem::Installer::ExtensionBuildError)
+
+/usr/bin/ruby1.8 extconf.rb 
+checking for Ruby version >= 1.8.5... yes
+checking for gcc... yes
+checking for Magick-config... no
+Can't install RMagick 2.13.1. Can't find Magick-config in /var/lib/gems/1.8/bin:/var/lib/gems/1.8/bin:/home/spencer/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games
+
+*** extconf.rb failed ***
+Could not create Makefile due to some reason, prob

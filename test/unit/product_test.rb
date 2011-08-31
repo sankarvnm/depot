@@ -7,15 +7,14 @@ class ProductTest < ActiveSupport::TestCase
   	assert product.errors[:title].any?
   	assert product.errors[:description].any?								
   	assert product.errors[:price].any?	
-  	assert product.errors[:image_url].any?
+
   end
   
   test "product price must be positive" do 
   	product = Product.new(
   		:title => 'my food title',
-  		:description => 'yyy',
-  		:image_url => 'zzz.png'
-  	)
+  		:description => 'yyy'
+  		)
   	
   	product.price = 0
   	assert product.invalid?
@@ -31,36 +30,12 @@ class ProductTest < ActiveSupport::TestCase
   	product.valid?
   	
   end
-  
-  def new_product(image_url)
-  	Product.new(
-  		:title => 'my food title',
-  		:description => 'this is a description',
-  		:price => 1,
-  		:image_url => image_url)
-  	
-  end
-  
-  test 'image url has the valid format' do 
-  	good_image = %w{fred.gif fred.jpg fred.png FRED.PNG Fred.Gif}
-  	bad_image = %w{fred.doc fred.gif/more fred.gif.more}
-  	
-  	good_image.each do |name|
-  		assert new_product(name).valid?, "#{name} shouldn't be invalid"
-  	end
-  	
-  	bad_image.each do |name|
-  		assert new_product(name).invalid?, "#{name} shouldn't be invalid"
-  	end
-  	
-  end
-  
+ 
   test 'product is not valid without a unique title' do
   	product = Product.new(
   		:title => products(:menu_item).title,
   		:description => 'this is a description',
-  		:price => 1,
-  		:image_url => 'fred.gif')
+  		:price => 1)
   		
   		assert !product.save
   		assert_equal 'has already been taken', 

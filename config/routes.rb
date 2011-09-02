@@ -2,6 +2,8 @@ Depot::Application.routes.draw do
   get "store/index"
 
   resources :products 
+  
+  root :to => "welcome#index"
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
